@@ -1,0 +1,15 @@
+1.
+dotnet new console -o MyApp
+cd MyApp
+dotnet run
+
+2.
+dotnet --list-sdks
+it will show version
+
+kishanlal@Kishans-MacBook-Air c# % 
+10.0.101 [/usr/local/share/dotnet/sdk]
+
+
+3.
+dotnet help

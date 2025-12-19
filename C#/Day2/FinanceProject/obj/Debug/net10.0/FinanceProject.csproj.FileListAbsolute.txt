@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/Day2/FinanceProject/obj/Debug/net10.0/FinanceProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/Day2/FinanceProject/obj/Debug/net10.0/FinanceProject.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day2/FinanceProject/obj/Debug/net10.0/FinanceProject.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/Day2/FinanceProject/obj/Debug/net10.0/FinanceProject.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day2/FinanceProject/obj/Debug/net10.0/FinanceProject.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/Day2/FinanceProject/bin/Debug/net10.0/FinanceProject
+/Users/kishanlal/Downloads/CG Training/C#/Day2/FinanceProject/bin/Debug/net10.0/FinanceProject.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/Day2/FinanceProject/bin/Debug/net10.0/FinanceProject.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/Day2/FinanceProject/bin/Debug/net10.0/FinanceProject.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day2/FinanceProject/bin/Debug/net10.0/FinanceProject.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day2/FinanceProject/obj/Debug/net10.0/FinanceProject.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day2/FinanceProject/obj/Debug/net10.0/refint/FinanceProject.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day2/FinanceProject/obj/Debug/net10.0/FinanceProject.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day2/FinanceProject/obj/Debug/net10.0/FinanceProject.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day2/FinanceProject/obj/Debug/net10.0/ref/FinanceProject.dll

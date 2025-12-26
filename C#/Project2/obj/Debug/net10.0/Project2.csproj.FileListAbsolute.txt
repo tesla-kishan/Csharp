@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/Project2/bin/Debug/net10.0/Project2
+/Users/kishanlal/Downloads/CG Training/C#/Project2/bin/Debug/net10.0/Project2.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/Project2/bin/Debug/net10.0/Project2.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/Project2/bin/Debug/net10.0/Project2.dll
+/Users/kishanlal/Downloads/CG Training/C#/Project2/bin/Debug/net10.0/Project2.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Project2/obj/Debug/net10.0/Project2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/Project2/obj/Debug/net10.0/Project2.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Project2/obj/Debug/net10.0/Project2.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/Project2/obj/Debug/net10.0/Project2.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Project2/obj/Debug/net10.0/Project2.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/Project2/obj/Debug/net10.0/Project2.dll
+/Users/kishanlal/Downloads/CG Training/C#/Project2/obj/Debug/net10.0/refint/Project2.dll
+/Users/kishanlal/Downloads/CG Training/C#/Project2/obj/Debug/net10.0/Project2.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Project2/obj/Debug/net10.0/Project2.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/Project2/obj/Debug/net10.0/ref/Project2.dll

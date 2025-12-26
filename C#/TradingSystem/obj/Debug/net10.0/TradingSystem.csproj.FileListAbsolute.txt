@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/TradingSystem/obj/Debug/net10.0/TradingSystem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/TradingSystem/obj/Debug/net10.0/TradingSystem.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/TradingSystem/obj/Debug/net10.0/TradingSystem.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/TradingSystem/obj/Debug/net10.0/TradingSystem.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/TradingSystem/obj/Debug/net10.0/TradingSystem.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/TradingSystem/bin/Debug/net10.0/TradingSystem
+/Users/kishanlal/Downloads/CG Training/C#/TradingSystem/bin/Debug/net10.0/TradingSystem.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/TradingSystem/bin/Debug/net10.0/TradingSystem.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/TradingSystem/bin/Debug/net10.0/TradingSystem.dll
+/Users/kishanlal/Downloads/CG Training/C#/TradingSystem/bin/Debug/net10.0/TradingSystem.pdb
+/Users/kishanlal/Downloads/CG Training/C#/TradingSystem/obj/Debug/net10.0/TradingSystem.dll
+/Users/kishanlal/Downloads/CG Training/C#/TradingSystem/obj/Debug/net10.0/refint/TradingSystem.dll
+/Users/kishanlal/Downloads/CG Training/C#/TradingSystem/obj/Debug/net10.0/TradingSystem.pdb
+/Users/kishanlal/Downloads/CG Training/C#/TradingSystem/obj/Debug/net10.0/TradingSystem.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/TradingSystem/obj/Debug/net10.0/ref/TradingSystem.dll

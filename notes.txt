@@ -18,3 +18,21 @@ bfsi
 photon rsa encryption
 
 dotnet new console -n  Day4
+
+ref (original is sent)
+params (nultiple thingfs can be pass like arr[]={1,2,3,4})
+out 
+n
+void
+
+
+normal -> default -> params (parameters)
+
+
+git add . 
+git commit -m "anything"
+git push origin main
+
+virtual
+override
+base.x()

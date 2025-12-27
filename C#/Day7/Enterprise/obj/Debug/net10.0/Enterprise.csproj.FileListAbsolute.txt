@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Enterprise/obj/Debug/net10.0/Enterprise.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Enterprise/obj/Debug/net10.0/Enterprise.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Enterprise/obj/Debug/net10.0/Enterprise.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Enterprise/obj/Debug/net10.0/Enterprise.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Enterprise/obj/Debug/net10.0/Enterprise.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Enterprise/bin/Debug/net10.0/Enterprise
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Enterprise/bin/Debug/net10.0/Enterprise.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Enterprise/bin/Debug/net10.0/Enterprise.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Enterprise/bin/Debug/net10.0/Enterprise.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Enterprise/bin/Debug/net10.0/Enterprise.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Enterprise/obj/Debug/net10.0/Enterprise.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Enterprise/obj/Debug/net10.0/refint/Enterprise.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Enterprise/obj/Debug/net10.0/Enterprise.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Enterprise/obj/Debug/net10.0/Enterprise.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Enterprise/obj/Debug/net10.0/ref/Enterprise.dll

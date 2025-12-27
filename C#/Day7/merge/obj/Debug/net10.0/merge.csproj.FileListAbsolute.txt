@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/Day7/merge/bin/Debug/net10.0/merge
+/Users/kishanlal/Downloads/CG Training/C#/Day7/merge/bin/Debug/net10.0/merge.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/Day7/merge/bin/Debug/net10.0/merge.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/Day7/merge/bin/Debug/net10.0/merge.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day7/merge/bin/Debug/net10.0/merge.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day7/merge/obj/Debug/net10.0/merge.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/Day7/merge/obj/Debug/net10.0/merge.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day7/merge/obj/Debug/net10.0/merge.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/Day7/merge/obj/Debug/net10.0/merge.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day7/merge/obj/Debug/net10.0/merge.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/Day7/merge/obj/Debug/net10.0/merge.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day7/merge/obj/Debug/net10.0/refint/merge.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day7/merge/obj/Debug/net10.0/merge.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day7/merge/obj/Debug/net10.0/merge.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day7/merge/obj/Debug/net10.0/ref/merge.dll

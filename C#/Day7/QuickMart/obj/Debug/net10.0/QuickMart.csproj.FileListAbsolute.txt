@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/Day7/QuickMart/bin/Debug/net10.0/QuickMart
+/Users/kishanlal/Downloads/CG Training/C#/Day7/QuickMart/bin/Debug/net10.0/QuickMart.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/Day7/QuickMart/bin/Debug/net10.0/QuickMart.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/Day7/QuickMart/bin/Debug/net10.0/QuickMart.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day7/QuickMart/bin/Debug/net10.0/QuickMart.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day7/QuickMart/obj/Debug/net10.0/QuickMart.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/Day7/QuickMart/obj/Debug/net10.0/QuickMart.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day7/QuickMart/obj/Debug/net10.0/QuickMart.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/Day7/QuickMart/obj/Debug/net10.0/QuickMart.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day7/QuickMart/obj/Debug/net10.0/QuickMart.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/Day7/QuickMart/obj/Debug/net10.0/QuickMart.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day7/QuickMart/obj/Debug/net10.0/refint/QuickMart.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day7/QuickMart/obj/Debug/net10.0/QuickMart.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day7/QuickMart/obj/Debug/net10.0/QuickMart.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day7/QuickMart/obj/Debug/net10.0/ref/QuickMart.dll

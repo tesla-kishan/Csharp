@@ -1,0 +1,12 @@
+
+// try
+// {
+//     // Simulate database operation
+//     throw new SqlException("Connection failed");
+// }
+// catch (SqlException ex)
+// {
+//     // Wrap low-level exception into higher-level exception
+//     throw new Exception("Database operation failed in Service Layer", ex);
+// }
+

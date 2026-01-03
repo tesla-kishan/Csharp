@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Medisure/obj/Debug/net10.0/Medisure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Medisure/obj/Debug/net10.0/Medisure.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Medisure/obj/Debug/net10.0/Medisure.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Medisure/obj/Debug/net10.0/Medisure.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Medisure/obj/Debug/net10.0/Medisure.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Medisure/bin/Debug/net10.0/Medisure
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Medisure/bin/Debug/net10.0/Medisure.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Medisure/bin/Debug/net10.0/Medisure.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Medisure/bin/Debug/net10.0/Medisure.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Medisure/bin/Debug/net10.0/Medisure.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Medisure/obj/Debug/net10.0/Medisure.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Medisure/obj/Debug/net10.0/refint/Medisure.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Medisure/obj/Debug/net10.0/Medisure.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Medisure/obj/Debug/net10.0/Medisure.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day7/Medisure/obj/Debug/net10.0/ref/Medisure.dll

@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/StreamBuzz/bin/Debug/net10.0/StreamBuzz
+/Users/kishanlal/Downloads/CG Training/C#/StreamBuzz/bin/Debug/net10.0/StreamBuzz.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/StreamBuzz/bin/Debug/net10.0/StreamBuzz.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/StreamBuzz/bin/Debug/net10.0/StreamBuzz.dll
+/Users/kishanlal/Downloads/CG Training/C#/StreamBuzz/bin/Debug/net10.0/StreamBuzz.pdb
+/Users/kishanlal/Downloads/CG Training/C#/StreamBuzz/obj/Debug/net10.0/StreamBuzz.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/StreamBuzz/obj/Debug/net10.0/StreamBuzz.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/StreamBuzz/obj/Debug/net10.0/StreamBuzz.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/StreamBuzz/obj/Debug/net10.0/StreamBuzz.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/StreamBuzz/obj/Debug/net10.0/StreamBuzz.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/StreamBuzz/obj/Debug/net10.0/StreamBuzz.dll
+/Users/kishanlal/Downloads/CG Training/C#/StreamBuzz/obj/Debug/net10.0/refint/StreamBuzz.dll
+/Users/kishanlal/Downloads/CG Training/C#/StreamBuzz/obj/Debug/net10.0/StreamBuzz.pdb
+/Users/kishanlal/Downloads/CG Training/C#/StreamBuzz/obj/Debug/net10.0/StreamBuzz.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/StreamBuzz/obj/Debug/net10.0/ref/StreamBuzz.dll

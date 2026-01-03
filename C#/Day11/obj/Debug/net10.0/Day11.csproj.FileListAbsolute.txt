@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/Day11/bin/Debug/net10.0/Day11
+/Users/kishanlal/Downloads/CG Training/C#/Day11/bin/Debug/net10.0/Day11.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/Day11/bin/Debug/net10.0/Day11.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/Day11/bin/Debug/net10.0/Day11.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day11/bin/Debug/net10.0/Day11.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day11/obj/Debug/net10.0/Day11.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/Day11/obj/Debug/net10.0/Day11.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day11/obj/Debug/net10.0/Day11.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/Day11/obj/Debug/net10.0/Day11.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day11/obj/Debug/net10.0/Day11.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/Day11/obj/Debug/net10.0/Day11.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day11/obj/Debug/net10.0/refint/Day11.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day11/obj/Debug/net10.0/Day11.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day11/obj/Debug/net10.0/Day11.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day11/obj/Debug/net10.0/ref/Day11.dll

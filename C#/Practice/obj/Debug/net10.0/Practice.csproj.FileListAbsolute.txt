@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/Practice/bin/Debug/net10.0/Practice
+/Users/kishanlal/Downloads/CG Training/C#/Practice/bin/Debug/net10.0/Practice.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/Practice/bin/Debug/net10.0/Practice.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/Practice/bin/Debug/net10.0/Practice.dll
+/Users/kishanlal/Downloads/CG Training/C#/Practice/bin/Debug/net10.0/Practice.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Practice/obj/Debug/net10.0/Practice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/Practice/obj/Debug/net10.0/Practice.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Practice/obj/Debug/net10.0/Practice.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/Practice/obj/Debug/net10.0/Practice.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Practice/obj/Debug/net10.0/Practice.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/Practice/obj/Debug/net10.0/Practice.dll
+/Users/kishanlal/Downloads/CG Training/C#/Practice/obj/Debug/net10.0/refint/Practice.dll
+/Users/kishanlal/Downloads/CG Training/C#/Practice/obj/Debug/net10.0/Practice.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Practice/obj/Debug/net10.0/Practice.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/Practice/obj/Debug/net10.0/ref/Practice.dll

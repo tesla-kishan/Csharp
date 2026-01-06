@@ -50,13 +50,13 @@ class Program
         //     goto go;
         // }
 
-        string s = "kishan";
-        string s1 = "kishan";
-        Console.WriteLine(s.ToUpper());
-        Console.WriteLine(s.Length);
-        Console.WriteLine(s.ToLower());
-        Console.WriteLine(s==s1);
-        Console.WriteLine(s1.Equals(s));
-        Console.WriteLine(Object.ReferenceEquals(s,s1));
+        // string s = "kishan";
+        // string s1 = "kishan";
+        // Console.WriteLine(s.ToUpper());
+        // Console.WriteLine(s.Length);
+        // Console.WriteLine(s.ToLower());
+        // Console.WriteLine(s==s1);
+        // Console.WriteLine(s1.Equals(s));
+        // Console.WriteLine(Object.ReferenceEquals(s,s1));
     }
 }

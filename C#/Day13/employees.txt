@@ -1,0 +1,5 @@
+Employee Report
+---------------
+ID: 101, Name: John, Department: IT
+ID: 102, Name: Emma, Department: HR
+ID: 103, Name: David, Department: Finance

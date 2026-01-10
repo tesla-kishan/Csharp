@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/obj/Debug/net10.0/SugarBlissBakery.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/obj/Debug/net10.0/SugarBlissBakery.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/obj/Debug/net10.0/SugarBlissBakery.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/obj/Debug/net10.0/SugarBlissBakery.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/obj/Debug/net10.0/SugarBlissBakery.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/bin/Debug/net10.0/SugarBlissBakery
+/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/bin/Debug/net10.0/SugarBlissBakery.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/bin/Debug/net10.0/SugarBlissBakery.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/bin/Debug/net10.0/SugarBlissBakery.dll
+/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/bin/Debug/net10.0/SugarBlissBakery.pdb
+/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/obj/Debug/net10.0/SugarBlissBakery.dll
+/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/obj/Debug/net10.0/refint/SugarBlissBakery.dll
+/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/obj/Debug/net10.0/SugarBlissBakery.pdb
+/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/obj/Debug/net10.0/SugarBlissBakery.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/obj/Debug/net10.0/ref/SugarBlissBakery.dll

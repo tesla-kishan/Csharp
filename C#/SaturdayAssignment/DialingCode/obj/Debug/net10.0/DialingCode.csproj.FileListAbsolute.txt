@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/DialingCode/bin/Debug/net10.0/DialingCode
+/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/DialingCode/bin/Debug/net10.0/DialingCode.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/DialingCode/bin/Debug/net10.0/DialingCode.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/DialingCode/bin/Debug/net10.0/DialingCode.dll
+/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/DialingCode/bin/Debug/net10.0/DialingCode.pdb
+/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/DialingCode/obj/Debug/net10.0/DialingCode.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/DialingCode/obj/Debug/net10.0/DialingCode.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/DialingCode/obj/Debug/net10.0/DialingCode.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/DialingCode/obj/Debug/net10.0/DialingCode.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/DialingCode/obj/Debug/net10.0/DialingCode.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/DialingCode/obj/Debug/net10.0/DialingCode.dll
+/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/DialingCode/obj/Debug/net10.0/refint/DialingCode.dll
+/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/DialingCode/obj/Debug/net10.0/DialingCode.pdb
+/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/DialingCode/obj/Debug/net10.0/DialingCode.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/DialingCode/obj/Debug/net10.0/ref/DialingCode.dll

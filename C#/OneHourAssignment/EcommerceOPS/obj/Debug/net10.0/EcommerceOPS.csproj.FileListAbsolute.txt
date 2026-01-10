@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/OneHourAssignment/EcommerceOPS/bin/Debug/net10.0/EcommerceOPS
+/Users/kishanlal/Downloads/CG Training/C#/OneHourAssignment/EcommerceOPS/bin/Debug/net10.0/EcommerceOPS.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/OneHourAssignment/EcommerceOPS/bin/Debug/net10.0/EcommerceOPS.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/OneHourAssignment/EcommerceOPS/bin/Debug/net10.0/EcommerceOPS.dll
+/Users/kishanlal/Downloads/CG Training/C#/OneHourAssignment/EcommerceOPS/bin/Debug/net10.0/EcommerceOPS.pdb
+/Users/kishanlal/Downloads/CG Training/C#/OneHourAssignment/EcommerceOPS/obj/Debug/net10.0/EcommerceOPS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/OneHourAssignment/EcommerceOPS/obj/Debug/net10.0/EcommerceOPS.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/OneHourAssignment/EcommerceOPS/obj/Debug/net10.0/EcommerceOPS.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/OneHourAssignment/EcommerceOPS/obj/Debug/net10.0/EcommerceOPS.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/OneHourAssignment/EcommerceOPS/obj/Debug/net10.0/EcommerceOPS.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/OneHourAssignment/EcommerceOPS/obj/Debug/net10.0/EcommerceOPS.dll
+/Users/kishanlal/Downloads/CG Training/C#/OneHourAssignment/EcommerceOPS/obj/Debug/net10.0/refint/EcommerceOPS.dll
+/Users/kishanlal/Downloads/CG Training/C#/OneHourAssignment/EcommerceOPS/obj/Debug/net10.0/EcommerceOPS.pdb
+/Users/kishanlal/Downloads/CG Training/C#/OneHourAssignment/EcommerceOPS/obj/Debug/net10.0/EcommerceOPS.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/OneHourAssignment/EcommerceOPS/obj/Debug/net10.0/ref/EcommerceOPS.dll

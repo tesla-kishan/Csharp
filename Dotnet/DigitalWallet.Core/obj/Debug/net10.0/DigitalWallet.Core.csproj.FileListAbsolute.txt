@@ -1,0 +1,12 @@
+/Users/kishanlal/Downloads/Dotnet/DigitalWallet.Core/bin/Debug/net10.0/DigitalWallet.Core.deps.json
+/Users/kishanlal/Downloads/Dotnet/DigitalWallet.Core/bin/Debug/net10.0/DigitalWallet.Core.dll
+/Users/kishanlal/Downloads/Dotnet/DigitalWallet.Core/bin/Debug/net10.0/DigitalWallet.Core.pdb
+/Users/kishanlal/Downloads/Dotnet/DigitalWallet.Core/obj/Debug/net10.0/DigitalWallet.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/Dotnet/DigitalWallet.Core/obj/Debug/net10.0/DigitalWallet.Core.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/Dotnet/DigitalWallet.Core/obj/Debug/net10.0/DigitalWallet.Core.AssemblyInfo.cs
+/Users/kishanlal/Downloads/Dotnet/DigitalWallet.Core/obj/Debug/net10.0/DigitalWallet.Core.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/Dotnet/DigitalWallet.Core/obj/Debug/net10.0/DigitalWallet.Core.sourcelink.json
+/Users/kishanlal/Downloads/Dotnet/DigitalWallet.Core/obj/Debug/net10.0/DigitalWallet.Core.dll
+/Users/kishanlal/Downloads/Dotnet/DigitalWallet.Core/obj/Debug/net10.0/refint/DigitalWallet.Core.dll
+/Users/kishanlal/Downloads/Dotnet/DigitalWallet.Core/obj/Debug/net10.0/DigitalWallet.Core.pdb
+/Users/kishanlal/Downloads/Dotnet/DigitalWallet.Core/obj/Debug/net10.0/ref/DigitalWallet.Core.dll

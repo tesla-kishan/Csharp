@@ -36,3 +36,10 @@ git push origin main
 virtual
 override
 base.x()
+
+
+create a solution file
+dotnet new sln -n DigitalWallet
+
+create a class lib
+dotnet new classlib -n DigitalWallet.Core

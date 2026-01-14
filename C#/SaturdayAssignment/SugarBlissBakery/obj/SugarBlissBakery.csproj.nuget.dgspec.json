@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/SugarBlissBakery.csproj": {}
+    "/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/SugarBlissBakery/SugarBlissBakery.csproj": {}
   },
   "projects": {
-    "/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/SugarBlissBakery.csproj": {
+    "/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/SugarBlissBakery/SugarBlissBakery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/SugarBlissBakery.csproj",
+        "projectUniqueName": "/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/SugarBlissBakery/SugarBlissBakery.csproj",
         "projectName": "SugarBlissBakery",
-        "projectPath": "/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/SugarBlissBakery.csproj",
+        "projectPath": "/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/SugarBlissBakery/SugarBlissBakery.csproj",
         "packagesPath": "/Users/kishanlal/.nuget/packages/",
-        "outputPath": "/Users/kishanlal/Downloads/CG Training/C#/AdditionalScenarioBQ/SugarBlissBakery/obj/",
+        "outputPath": "/Users/kishanlal/Downloads/CG Training/C#/SaturdayAssignment/SugarBlissBakery/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kishanlal/.nuget/NuGet/NuGet.Config"

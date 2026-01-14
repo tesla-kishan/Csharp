@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/Day17/UltraEnterpriseSDLC/bin/Debug/net10.0/UltraEnterpriseSDLC
+/Users/kishanlal/Downloads/CG Training/C#/Day17/UltraEnterpriseSDLC/bin/Debug/net10.0/UltraEnterpriseSDLC.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/Day17/UltraEnterpriseSDLC/bin/Debug/net10.0/UltraEnterpriseSDLC.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/Day17/UltraEnterpriseSDLC/bin/Debug/net10.0/UltraEnterpriseSDLC.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day17/UltraEnterpriseSDLC/bin/Debug/net10.0/UltraEnterpriseSDLC.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day17/UltraEnterpriseSDLC/obj/Debug/net10.0/UltraEnterpriseSDLC.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/Day17/UltraEnterpriseSDLC/obj/Debug/net10.0/UltraEnterpriseSDLC.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day17/UltraEnterpriseSDLC/obj/Debug/net10.0/UltraEnterpriseSDLC.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/Day17/UltraEnterpriseSDLC/obj/Debug/net10.0/UltraEnterpriseSDLC.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day17/UltraEnterpriseSDLC/obj/Debug/net10.0/UltraEnterpriseSDLC.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/Day17/UltraEnterpriseSDLC/obj/Debug/net10.0/UltraEnterpriseSDLC.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day17/UltraEnterpriseSDLC/obj/Debug/net10.0/refint/UltraEnterpriseSDLC.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day17/UltraEnterpriseSDLC/obj/Debug/net10.0/UltraEnterpriseSDLC.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day17/UltraEnterpriseSDLC/obj/Debug/net10.0/UltraEnterpriseSDLC.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day17/UltraEnterpriseSDLC/obj/Debug/net10.0/ref/UltraEnterpriseSDLC.dll

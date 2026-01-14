@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/Day15/HospitalMS/bin/Debug/net10.0/HospitalMS
+/Users/kishanlal/Downloads/CG Training/C#/Day15/HospitalMS/bin/Debug/net10.0/HospitalMS.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/Day15/HospitalMS/bin/Debug/net10.0/HospitalMS.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/Day15/HospitalMS/bin/Debug/net10.0/HospitalMS.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day15/HospitalMS/bin/Debug/net10.0/HospitalMS.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day15/HospitalMS/obj/Debug/net10.0/HospitalMS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/Day15/HospitalMS/obj/Debug/net10.0/HospitalMS.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day15/HospitalMS/obj/Debug/net10.0/HospitalMS.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/Day15/HospitalMS/obj/Debug/net10.0/HospitalMS.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day15/HospitalMS/obj/Debug/net10.0/HospitalMS.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/Day15/HospitalMS/obj/Debug/net10.0/HospitalMS.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day15/HospitalMS/obj/Debug/net10.0/refint/HospitalMS.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day15/HospitalMS/obj/Debug/net10.0/HospitalMS.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day15/HospitalMS/obj/Debug/net10.0/HospitalMS.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day15/HospitalMS/obj/Debug/net10.0/ref/HospitalMS.dll

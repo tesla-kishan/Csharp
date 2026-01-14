@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/Day16/LINQ-BasedARSF/obj/Debug/net10.0/LINQ-BasedARSF.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/Day16/LINQ-BasedARSF/obj/Debug/net10.0/LINQ-BasedARSF.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day16/LINQ-BasedARSF/obj/Debug/net10.0/LINQ-BasedARSF.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/Day16/LINQ-BasedARSF/obj/Debug/net10.0/LINQ-BasedARSF.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day16/LINQ-BasedARSF/obj/Debug/net10.0/LINQ-BasedARSF.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/Day16/LINQ-BasedARSF/bin/Debug/net10.0/LINQ-BasedARSF
+/Users/kishanlal/Downloads/CG Training/C#/Day16/LINQ-BasedARSF/bin/Debug/net10.0/LINQ-BasedARSF.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/Day16/LINQ-BasedARSF/bin/Debug/net10.0/LINQ-BasedARSF.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/Day16/LINQ-BasedARSF/bin/Debug/net10.0/LINQ-BasedARSF.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day16/LINQ-BasedARSF/bin/Debug/net10.0/LINQ-BasedARSF.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day16/LINQ-BasedARSF/obj/Debug/net10.0/LINQ-BasedARSF.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day16/LINQ-BasedARSF/obj/Debug/net10.0/refint/LINQ-BasedARSF.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day16/LINQ-BasedARSF/obj/Debug/net10.0/LINQ-BasedARSF.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day16/LINQ-BasedARSF/obj/Debug/net10.0/LINQ-BasedARSF.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day16/LINQ-BasedARSF/obj/Debug/net10.0/ref/LINQ-BasedARSF.dll

@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/MovieLibrary/obj/Debug/net10.0/MovieLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/MovieLibrary/obj/Debug/net10.0/MovieLibrary.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/MovieLibrary/obj/Debug/net10.0/MovieLibrary.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/MovieLibrary/obj/Debug/net10.0/MovieLibrary.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/MovieLibrary/obj/Debug/net10.0/MovieLibrary.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/MovieLibrary/bin/Debug/net10.0/MovieLibrary
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/MovieLibrary/bin/Debug/net10.0/MovieLibrary.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/MovieLibrary/bin/Debug/net10.0/MovieLibrary.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/MovieLibrary/bin/Debug/net10.0/MovieLibrary.dll
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/MovieLibrary/bin/Debug/net10.0/MovieLibrary.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/MovieLibrary/obj/Debug/net10.0/MovieLibrary.dll
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/MovieLibrary/obj/Debug/net10.0/refint/MovieLibrary.dll
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/MovieLibrary/obj/Debug/net10.0/MovieLibrary.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/MovieLibrary/obj/Debug/net10.0/MovieLibrary.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/MovieLibrary/obj/Debug/net10.0/ref/MovieLibrary.dll

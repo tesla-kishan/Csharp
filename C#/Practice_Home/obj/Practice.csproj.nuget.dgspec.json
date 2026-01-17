@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kishanlal/Downloads/CG Training/C#/Practice/Practice.csproj": {}
+    "/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/Practice.csproj": {}
   },
   "projects": {
-    "/Users/kishanlal/Downloads/CG Training/C#/Practice/Practice.csproj": {
+    "/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/Practice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kishanlal/Downloads/CG Training/C#/Practice/Practice.csproj",
+        "projectUniqueName": "/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/Practice.csproj",
         "projectName": "Practice",
-        "projectPath": "/Users/kishanlal/Downloads/CG Training/C#/Practice/Practice.csproj",
+        "projectPath": "/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/Practice.csproj",
         "packagesPath": "/Users/kishanlal/.nuget/packages/",
-        "outputPath": "/Users/kishanlal/Downloads/CG Training/C#/Practice/obj/",
+        "outputPath": "/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kishanlal/.nuget/NuGet/NuGet.Config"

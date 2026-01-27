@@ -1,0 +1,12 @@
+/Users/kishanlal/Downloads/CG Training/C#/Day22/MyLibrary/bin/Debug/net10.0/MyLibrary.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/Day22/MyLibrary/bin/Debug/net10.0/MyLibrary.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day22/MyLibrary/bin/Debug/net10.0/MyLibrary.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day22/MyLibrary/obj/Debug/net10.0/MyLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/Day22/MyLibrary/obj/Debug/net10.0/MyLibrary.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day22/MyLibrary/obj/Debug/net10.0/MyLibrary.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/Day22/MyLibrary/obj/Debug/net10.0/MyLibrary.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Day22/MyLibrary/obj/Debug/net10.0/MyLibrary.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/Day22/MyLibrary/obj/Debug/net10.0/MyLibrary.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day22/MyLibrary/obj/Debug/net10.0/refint/MyLibrary.dll
+/Users/kishanlal/Downloads/CG Training/C#/Day22/MyLibrary/obj/Debug/net10.0/MyLibrary.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Day22/MyLibrary/obj/Debug/net10.0/ref/MyLibrary.dll

@@ -1,0 +1,15 @@
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/FinMs/bin/Debug/net10.0/FinMs
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/FinMs/bin/Debug/net10.0/FinMs.deps.json
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/FinMs/bin/Debug/net10.0/FinMs.runtimeconfig.json
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/FinMs/bin/Debug/net10.0/FinMs.dll
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/FinMs/bin/Debug/net10.0/FinMs.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/FinMs/obj/Debug/net10.0/FinMs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/FinMs/obj/Debug/net10.0/FinMs.AssemblyInfoInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/FinMs/obj/Debug/net10.0/FinMs.AssemblyInfo.cs
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/FinMs/obj/Debug/net10.0/FinMs.csproj.CoreCompileInputs.cache
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/FinMs/obj/Debug/net10.0/FinMs.sourcelink.json
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/FinMs/obj/Debug/net10.0/FinMs.dll
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/FinMs/obj/Debug/net10.0/refint/FinMs.dll
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/FinMs/obj/Debug/net10.0/FinMs.pdb
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/FinMs/obj/Debug/net10.0/FinMs.genruntimeconfig.cache
+/Users/kishanlal/Downloads/CG Training/C#/Practice_Home/FinMs/obj/Debug/net10.0/ref/FinMs.dll

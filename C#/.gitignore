@@ -1,0 +1,12 @@
+# Mac system files
+.DS_Store
+
+# .NET build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.pdb
+*.dll

@@ -43,3 +43,49 @@ dotnet new sln -n DigitalWallet
 
 create a class lib
 dotnet new classlib -n DigitalWallet.Core
+
+
+
+----------------------------------------------------------------------------------------------------------
+
+dotnet new classlib -n MyClassLibrary
+
+
+MyClassLibrary/
+ ├── Class1.cs
+ ├── MyClassLibrary.csproj
+
+
+in class1.cs
+
+namespace MyClassLibrary
+{
+    public class Calculator
+    {
+        public int Add(int a, int b)
+        {
+            return a + b;
+        }
+    }
+}
+
+dotnet build
+dotnet new console -n TestApp
+dotnet add TestApp/TestApp.csproj reference MyClassLibrary/MyClassLibrary.csproj
+
+using MyClassLibrary;
+
+class Program
+{
+    static void Main()
+    {
+        Calculator c = new Calculator();
+        Console.WriteLine(c.Add(5,3));
+    }
+}
+
+
+dotnet run --project TestApp
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+

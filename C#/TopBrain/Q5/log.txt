@@ -1,0 +1,6 @@
+INFO Server started
+ERROR Database connection failed
+WARN Disk usage high
+ERROR File not found
+INFO Shutdown
+

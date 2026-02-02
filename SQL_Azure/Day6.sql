@@ -148,3 +148,33 @@ SELECT Name,SportsName FROM HaryanaSports;
 SELECT Name,SportsName FROM PunjabSports
 UNION ALL
 SELECT Name,SportsName FROM HaryanaSports;
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+CREATE TABLE CollegeData (
+    Id INT PRIMARY KEY,
+    Name VARCHAR(50)
+);
+INSERT INTO CollegeData VALUES
+(1, 'KISHAN'),
+(2, 'ROHAN'),
+(3, 'KARAN'),
+(4, 'AMIT'),
+(5, 'PRIYA'),
+(6, 'RAVI');
+
+
+select Id,SUBSTRING(Name,1,3) AS Short_Name from CollegeData;
+
+select Id,Left(Name,3) AS Short_Name from CollegeData;
+
+SELECT LEFT(Name, CHARINDEX('R', Name)) AS Substring_Till_R FROM CollegeData;
+
+SELECT Id,
+CASE 
+    WHEN CHARINDEX('R', Name) > 0
+    THEN SUBSTRING(Name, CHARINDEX('R', Name), LEN(Name))
+    ELSE Name
+END AS From_R_To_End
+FROM CollegeData;
+

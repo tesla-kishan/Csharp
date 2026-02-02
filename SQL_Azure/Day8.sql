@@ -95,16 +95,74 @@ SELECT * FROM ##StudentGlobal;
 
 
 
+CREATE OR ALTER PROCEDURE dbo.usp_BonusCalculation
+AS
+BEGIN
+    CREATE TABLE #bonuscalculator
+    (
+        Name NVARCHAR(50),
+        total INT,
+        Bonus INT
+    );
+
+    INSERT INTO #bonuscalculator (Name, total)
+    SELECT 
+        Name,
+        (M1 + M2 + M3 + M4)
+    FROM CollegeMaster;
+
+    UPDATE #bonuscalculator
+    SET Bonus = 500
+    WHERE total > 290;
+
+    SELECT * FROM #bonuscalculator;
+END;
 
 
 
 
+EXEC dbo.usp_BonusCalculation;
+
+-----------------------------------------------------------------------------------------------------------------------
+
+--Using a temporary table, write a stored procedure to calculate the result of students.
+--If 5 grace marks are added to the subject marks and the passing marks are 71, display PASS / FAIL for each student.
+
+CREATE OR ALTER PROCEDURE dbo.usp_GraceMarksResult
+AS
+BEGIN
+    -- Create temporary table
+    CREATE TABLE #ResultTemp
+    (
+        Name VARCHAR(50),
+        OriginalMarks INT,
+        MarksAfterGrace INT,
+        Result VARCHAR(10)
+    );
+
+    -- Insert data with 5 grace marks
+    INSERT INTO #ResultTemp (Name, OriginalMarks, MarksAfterGrace)
+    SELECT 
+        Name,
+        M1,
+        M1 + 5
+    FROM CollegeMaster;
+
+    -- Update pass/fail status
+    UPDATE #ResultTemp
+    SET Result = 
+        CASE 
+            WHEN MarksAfterGrace >= 35 THEN 'PASS'
+            ELSE 'FAIL'
+        END;
+
+    -- Display final result
+    SELECT * FROM #ResultTemp;
+END;
 
 
 
+EXEC dbo.usp_GraceMarksResult;
 
 
-
-
-
-
+------------------------------------------------------------------------------------------------------------------

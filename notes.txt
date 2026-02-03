@@ -89,3 +89,30 @@ dotnet run --project TestApp
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+cd "/Users/kishanlal/Downloads/CG Training"
+git add "C#/OneHourAssignment/BikeRental"
+git commit -m "Add BikeRental project to OneHourAssignment"
+git push origin main
+
+
+cp -r "/Users/kishanlal/Library/DBeaverData/workspace6/General/Scripts/SQL_Azure" "/Users/kishanlal/Downloads/CG Training/"
+cd "/Users/kishanlal/Downloads/CG Training"
+git add SQL_Azure/
+git commit -m "Add SQL_Azure folder with SQL scripts"
+git push origin main
+
+cp "/Users/kishanlal/Library/DBeaverData/workspace6/General/Scripts/SQL_Azure/Day8.sql" "/Users/kishanlal/Downloads/CG Training/SQL_Azure/"
+cd "/Users/kishanlal/Downloads/CG Training"
+git add SQL_Azure/Day8.sql
+git commit -m "Add Day8.sql to SQL_Azure"
+git push origin main
+
+--------------------------------------------------------------------------------------
+
+
+dotnet new mstest -n MyTests
+dotnet test
+
+
+x-unit -> [Fact]
+MSTest -> [TestMethod]

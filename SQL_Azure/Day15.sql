@@ -120,3 +120,27 @@ END;
 
 
 exec sp_GetStudents;
+-------------------------------------------------
+
+CREATE TABLE Studentss
+(
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Name VARCHAR(50),
+    Department VARCHAR(50)
+);
+
+INSERT INTO Studentss (Name, Department)
+VALUES ('Arun', 'CSE');
+
+CREATE OR ALTER PROCEDURE sp_GetStudentss
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT Id, Name, Department
+    FROM Studentss;
+END;
+
+
+EXEC sp_GetStudentss;
+
+----------------------------------------------------

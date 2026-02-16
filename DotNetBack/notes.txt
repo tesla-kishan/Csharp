@@ -1,0 +1,63 @@
+dotnet new classlib -n MyLibrary
+dotnet new classlib -n BusinessLayer
+
+
+BusinessLayer/Class1.cs
+namespace BusinessLayer
+{
+    public class Calculator
+    {
+        public int Add(int a, int b)
+        {
+            return a + b;
+        }
+    }
+}
+
+
+dotnet build
+
+dotnet new console -n MyApp
+
+using BusinessLayer;
+
+--Use Library in Program.cs
+class Program
+{
+    static void Main()
+    {
+        Calculator calc = new Calculator();
+        Console.WriteLine(calc.Add(5, 3));
+    }
+}
+
+
+DotNetBack
+│
+├── BusinessLayer
+├── MyLibrary
+├── MyApp    
+└── DotNetBack.sln
+
+
+
+dotnet sln add MyApp/MyApp.csproj
+dotnet sln add BusinessLayer/BusinessLayer.csproj
+cd MyApp
+dotnet add reference ../BusinessLayer/BusinessLayer.csproj
+
+
+DotNetBack
+│
+├── DotNetBack.sln
+│
+├── BusinessLayer
+│
+├── MyLibrary
+│
+└── MyApp   (Presentation Layer)
+
+
+dotnet build
+dotnet run
+-Result = 30

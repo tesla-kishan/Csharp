@@ -53,25 +53,25 @@
 // }
 
 
-using System;
+// using System;
 
-class Program
-{
-    static void Main()
-    {
-        try
-        {
-            int num = int.Parse(Console.ReadLine());
-            Console.WriteLine(100 / num);
-        }
-        // WRITE YOUR CODE HERE
-        catch (DivideByZeroException)
-        {
-            Console.WriteLine("Cannot divide by zero");
-        }
-        catch (FormatException)
-        {
-            Console.WriteLine("Invalid input");
-        }
-    }
-}
+// class Program
+// {
+//     static void Main()
+//     {
+//         try
+//         {
+//             int num = int.Parse(Console.ReadLine());
+//             Console.WriteLine(100 / num);
+//         }
+//         // WRITE YOUR CODE HERE
+//         catch (DivideByZeroException)
+//         {
+//             Console.WriteLine("Cannot divide by zero");
+//         }
+//         catch (FormatException)
+//         {
+//             Console.WriteLine("Invalid input");
+//         }
+//     }
+// }

@@ -1,0 +1,384 @@
+Question 1 – Normalization (Foundation)
+
+You are given the following table used by a legacy application:
+
+EmployeeSalesRaw
+----------------------------------------------------
+EmpId
+EmpName
+Department
+Email
+SaleMonth
+SaleYear
+SaleAmount
+
+
+Tasks:
+
+Identify normalization issues in the above table.
+
+Normalize the structure up to 3NF.
+
+Create appropriate tables with:
+
+Primary keys
+
+Foreign key relationships
+
+Tables should at least include: Employee, Department, Sales.
+
+Question 2 – ALTER TABLE (Business Change Request)
+
+After reviewing Question 1, the business says:
+
+“We want to track employee performance points.”
+
+Tasks:
+
+Use ALTER TABLE to add a column called BonusPoints to the Employee table.
+
+Set default value as 0.
+
+⚠️ This question depends on Question 1.
+
+Question 3 – CHECK Constraint (Mid-Requirement Change)
+
+Business rule update:
+
+“Bonus points must always be between 0 and 100.”
+
+Tasks:
+
+Add a CHECK constraint on BonusPoints.
+
+Ensure invalid values cannot be inserted or updated.
+
+Question 4 – INNER JOIN (Mandatory)
+
+Write a query to display:
+
+Employee Name
+
+Department Name
+
+Sale Month
+
+Sale Year
+
+Sale Amount
+
+Only include employees who have made at least one sale.
+
+Use INNER JOIN only.
+
+Question 5 – Date Function (Mandatory)
+
+Write a query to calculate total sales for each employee for the current year.
+
+Requirements:
+
+Use SQL Server date functions
+
+Do not hardcode the year
+
+Question 6 – SUBSTRING and LEFT (Mandatory)
+
+The business wants username suggestions.
+
+Rule:
+
+First 3 characters of employee name
+
+First 2 characters of department name
+
+Append employee ID
+
+Example:
+
+Marimuthu + IT + 101 → MarIT101
+
+
+Tasks:
+
+Generate the username using SUBSTRING and LEFT.
+
+Display Employee Name and Generated Username.
+
+Question 7 – Subquery (Mandatory)
+
+Write a query to find employees whose total sales amount is greater than the average sales amount of all employees.
+
+Rules:
+
+Use a subquery
+
+No joins in the outer query for calculation
+
+Question 8 – UNION (Mandatory)
+
+The business wants a consolidated report:
+
+Employees who made sales above ₹50,000
+
+Employees who made sales below ₹10,000
+
+Tasks:
+
+Write two separate SELECT queries.
+
+Combine them using UNION.
+
+Display: Employee Name, Sale Amount, Category (High / Low)
+
+Question 9 – Trigger (Mandatory, Real-World Logic)
+
+Business rule:
+
+“Whenever a sale is inserted, automatically update BonusPoints.”
+
+Rule:
+
+If SaleAmount ≥ 50,000 → add 10 points
+
+If SaleAmount ≥ 20,000 → add 5 points
+
+Else → no bonus
+
+Tasks:
+
+Create an AFTER INSERT trigger on Sales table.
+
+Ensure BonusPoints updates automatically.
+
+Question 10 – Integrated Validation Query (Final)
+
+Write a single query that shows:
+
+Employee Name
+
+Department
+
+Total Sales
+
+BonusPoints
+
+Performance Grade
+
+A → BonusPoints ≥ 50
+ 
+B → BonusPoints between 20 and 49
+
+C → Below 20
+
+This question validates whether:
+
+Normalization is correct
+
+Trigger worked
+
+Aggregations are correct
+
+--------------------------------------
+
+Question 2:
+
+
+A training institute stores student course and marks data.
+Initially, all data was stored in a single table.
+
+Question 1 – Normalization (Mandatory)
+
+Given the un-normalized table:
+
+StudentCourseRaw
+---------------------------------------
+StudentId
+StudentName
+CourseName
+TrainerName
+CourseFee
+JoiningDate
+ExamMonth
+ExamYear
+Marks
+
+
+Tasks:
+
+Identify normalization issues.
+
+Normalize the design up to 3NF.
+
+Create required tables with:
+
+Primary keys
+
+Foreign keys
+
+(Expected tables: Student, Course, Trainer, Exam / Marks)
+
+Question 2 – ALTER TABLE (Schema Change)
+
+Institute requirement:
+
+“We want to store student reward points.”
+
+Tasks:
+
+Use ALTER TABLE to add RewardPoints column to Student table.
+
+Set default value as 0.
+
+(Depends on Question 1)
+
+Question 3 – CHECK Constraint (Mandatory)
+
+Rule:
+
+“RewardPoints value must be between 0 and 100.”
+
+Tasks:
+
+Add a CHECK constraint.
+
+Prevent invalid values.
+
+Question 4 – INNER JOIN (Mandatory)
+
+Write a query to display:
+
+Student Name
+
+Course Name
+
+Trainer Name
+
+Exam Month & Year
+
+Marks
+
+Show only students who have appeared for exams.
+Use INNER JOIN.
+
+Question 5 – Date Function (Mandatory)
+
+Write a query to calculate total marks obtained by each student in the current year.
+
+Rules:
+
+Use SQL Server date functions
+
+Do not hardcode the year
+
+Question 6 – SUBSTRING and LEFT (Mandatory)
+
+Institute wants to generate Student Login ID.
+
+Rule:
+
+First 3 letters of student name
+
+First 2 letters of course name
+
+Append student ID
+
+Example:
+
+Kumar + SQL + 105 → KumSQ105
+
+
+Tasks:
+
+Generate login ID using SUBSTRING and LEFT.
+
+Display Student Name and Login ID.
+
+Question 7 – Subquery (Mandatory)
+
+Write a query to list students whose total marks are greater than the average marks of all students.
+
+Rules:
+
+Use a subquery
+
+Do not calculate average in the outer query
+
+Question 8 – UNION (Mandatory)
+
+Institute wants a combined list:
+
+Students who scored above 80 marks
+
+Students who scored below 40 marks
+
+Tasks:
+
+Write two SELECT queries.
+
+Combine using UNION.
+
+Display:
+
+Student Name
+
+Marks
+
+Category (HIGH, LOW)
+
+Question 9 – Trigger (Mandatory)
+
+Business rule:
+
+“Whenever marks are inserted, update student RewardPoints.”
+
+Rule:
+
+Marks ≥ 80 → +10 points
+
+Marks ≥ 60 → +5 points
+
+Else → +2 points
+
+Tasks:
+
+Create an AFTER INSERT trigger on Marks table.
+
+Automatically update RewardPoints.
+
+Question 10 – COALESCE + Date Calculation (Mandatory)
+
+Institute loyalty rule:
+
+“If a student completes 3 years from JoiningDate, give ₹10,000 scholarship.”
+
+Conditions:
+
+Some students may not have exam records
+
+RewardPoints may be NULL
+
+Tasks:
+
+Calculate scholarship amount:
+
+Eligible → 10000
+
+Not eligible → 0
+
+Use COALESCE to handle NULL values.
+
+Display:
+
+Student Name
+
+Joining Date
+
+Years of Study
+
+Scholarship Amount
+
+Rules:
+
+Use SQL Server date functions
+
+No hard-coded dates

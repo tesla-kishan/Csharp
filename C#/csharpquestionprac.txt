@@ -1,0 +1,193 @@
+C#.NET Complex Scenario-Based Coding Questions (Capgemini M1 Style)
+Project: Databricks & SQL Assessment Banks
+
+Instructions
+• These are complex M1-style coding exercises. Implement real working code (not pseudo-code).
+• Use clean design, validations, proper exception handling, and meaningful naming.
+• Prefer unit-testable code and avoid hardcoding.
+• You may create supporting classes/models as needed.
+
+Questions (25)
+
+1. Concurrent Ticket Booking (Thread Safety + Lock)
+You have Seat { SeatNo, IsBooked } and multiple users booking seats at the same time.
+Implement bool BookSeat(int seatNo, string userId) such that:
+• Only one user can book a seat successfully
+• If already booked, return false
+• Must be thread-safe (no race conditions).
+
+2. Rate Limiter (Sliding Window)
+Implement an API rate limiter:
+bool AllowRequest(string clientId, DateTime now)
+Rules:
+• Max 5 requests per 10 seconds per client
+• Sliding window (not fixed blocks)
+• Store only minimal history for performance.
+
+3. Resilient Payment Gateway Call (Retry + Circuit Breaker)
+Implement Task<PaymentResult> ProcessPaymentAsync(PaymentRequest request):
+• Retry 3 times for transient failures (timeouts)
+• If 5 failures occur within 1 minute, open circuit for 30 seconds (fail fast)
+• Support CancellationToken.
+
+4. Producer–Consumer Order Processing (Tasks + Queue)
+Orders come into a queue; workers process them concurrently.
+• Producer adds orders
+• 3 consumer tasks process orders (simulate with delay)
+• Ensure graceful shutdown when producer completes
+Return total processed count.
+
+5. Large File Log Analyzer (Streaming + Memory Safe)
+Given a very large log file (e.g., 5GB), implement:
+IEnumerable<ErrorSummary> GetTopErrors(string filePath, int topN)
+Rules:
+• Do not load full file into memory
+• Extract error codes like ERR123
+• Return top N error codes by frequency.
+
+6. Transactional Money Transfer (Atomic + Rollback)
+Implement TransferResult Transfer(string fromAcc, string toAcc, decimal amount):
+• Debit and credit must be atomic
+• If credit fails, debit must rollback
+• Record audit log entry for success/failure
+• Throw domain exceptions for invalid inputs.
+
+7. JSON Batch Validation Pipeline (Complex Rules)
+Input: List of JSON strings representing CustomerApplication.
+Implement ValidationReport ValidateBatch(List<string> jsonPayloads).
+Rules:
+• Mandatory fields
+• Email format check
+• Age between 18–60
+• PAN format validation
+Return total valid/invalid + list of errors per record.
+
+8. Cache with TTL + LRU Eviction
+Create AdvancedCache<TKey,TValue>:
+• Capacity = N
+• TTL per key (expiry time)
+• If capacity full, evict Least Recently Used
+Methods: Set(key,value,ttlSeconds), Get(key)
+Expired items should behave like missing.
+
+9. Parallel Data Aggregation (PLINQ/Tasks)
+Given List<Sale {Region, Category, Amount, Date}>, compute:
+• Total sales by Region
+• Top category per Region
+• Best sales day overall
+Use parallel processing safely and produce deterministic output ordering.
+
+10. Command Pattern Mini Framework (Undo/Redo)
+Implement a command framework:
+• ICommand { Execute(), Undo() }
+• Commands: AddItem, RemoveItem, ApplyDiscount
+• Support undo/redo stacks
+Demonstrate with a cart use case.
+
+11. Deadlock-Free Bank Account Locks (Ordered Locking)
+Multiple transfers between accounts can deadlock if two threads lock different accounts.
+Implement transfer with ordered locking to prevent deadlocks:
+void SafeTransfer(Account a, Account b, decimal amount).
+
+12. Workflow Engine (State Machine)
+Loan application workflow states:
+Draft → Submitted → InReview → Approved/Rejected → Disbursed
+Implement:
+• ChangeState(appId, action)
+• Reject invalid transitions
+• Maintain state history
+• Rule: cannot Disburse if not Approved.
+
+13. CSV Import with Partial Success (Error Handling)
+Import product CSV where some rows can be invalid.
+Valid rows must be inserted, invalid rows reported.
+Implement ImportResult ImportProducts(string csvPath).
+Return inserted count + list of failed row numbers with reason.
+
+14. Secure Password Storage Utility (Hashing + Salt)
+Implement:
+• string HashPassword(string password)
+• bool VerifyPassword(string password, string storedHash)
+Rules:
+• Must use salt
+• Must use strong hashing (PBKDF2/Bcrypt pattern)
+• No plain text storage.
+
+15. Custom LINQ Extension Methods (yield return)
+Implement your own versions of:
+• WhereEx
+• SelectEx
+• DistinctEx
+• GroupByEx
+They must work with IEnumerable<T> using yield return.
+
+16. Multi-Tenant Report Generator (Grouping + Rules)
+Input: List<Transaction {TenantId, Type, Amount, Timestamp}>.
+Generate per tenant:
+• Total credits/debits
+• Peak transaction hour
+• Suspicious if > 3 debits within 5 minutes
+Return report objects.
+
+17. Async Pipeline with Ordering Guaranteed (SemaphoreSlim)
+Implement Task<List<Output>> ProcessAsync(List<Input> items):
+• Process items concurrently (max 4 at a time)
+• Output list must preserve input order
+• Use SemaphoreSlim.
+
+18. Duplicate Detection with Fuzzy Matching
+Customer duplicates if:
+• Same phone OR
+• Same email OR
+• Name similarity >= 80% (simple edit distance logic)
+Implement List<DuplicateGroup> FindDuplicates(List<Customer> customers).
+
+19. Audit Trigger Simulation (Change Tracking in Code)
+Simulate DB trigger behavior in C#:
+• When an entity is updated, log old vs new values
+• Support multi-property change tracking
+Implement EntityTracker that produces AuditEntry.
+
+20. Role-Based Access Control (RBAC) Engine
+Roles: Admin, Manager, Agent.
+Permissions: CreateLoan, ApproveLoan, RejectLoan, ViewAll, ViewSelf.
+Implement bool Authorize(User user, Permission permission, Resource resource).
+Rules:
+• Agent can only view self-owned resources
+• Manager can approve up to an amount limit.
+
+21. Bulk Email Sender with Throttling + Retry Queue
+Implement Task<BulkSendReport> SendBulkAsync(List<Email> emails):
+• Max 10 emails per second
+• Failed sends go to retry queue (2 retries)
+• Return summary of successes/failures.
+
+22. Detect Fraud Pattern in Transactions (Window + Rules)
+Fraud rules:
+• 3+ transactions > 50,000 within 2 minutes
+• OR same card used in 2 cities within 10 minutes
+Implement List<FraudAlert> DetectFraud(List<Transaction> txns).
+
+23. Plugin Loader (Reflection + Interface)
+Load plugins dynamically:
+Plugins are DLLs implementing IPlugin { string Name; Execute(); }.
+Implement List<IPlugin> LoadPlugins(string folderPath).
+Handle missing/invalid DLL safely.
+
+24. Thread-Safe Singleton with Lazy Initialization
+Implement ConfigManager singleton:
+• Lazy-loaded
+• Thread-safe
+• Prevent reflection-based multiple instances (basic guard)
+Expose GetSetting(string key).
+
+25. End-to-End Mini Order System (OOP + Validation + Exceptions)
+Design a mini order system with entities: Customer, Product, Order, OrderItem, Payment.
+Implement:
+• Add to cart
+• Place order (validate stock)
+• Deduct stock atomically
+• Apply coupon with rules
+• Generate invoice number
+• Handle failures with meaningful exceptions.
+

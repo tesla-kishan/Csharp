@@ -6,12 +6,12 @@
 //     static void Main()
 //     {
 //         // SQL Server connection string using IP address
-//         string connectionString =
-//             "Server=10.20.93.182,1433;" +
-//             "Database=day15;" +
-//             "User Id=sa;" +
-//             "Password=CodeWithArjun123;" +
-//             "TrustServerCertificate=True;";
+        // string connectionString =
+        //     "Server=10.20.93.182,1433;" +
+        //     "Database=day15;" +
+        //     "User Id=sa;" +
+        //     "Password=CodeWithArjun123;" +
+        //     "TrustServerCertificate=True;";
 
 //         try
 //         {

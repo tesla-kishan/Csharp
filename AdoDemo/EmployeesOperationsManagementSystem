@@ -1,3 +1,160 @@
+Scenario-Based Question: Employee Operations Management System
+
+-- A mid-size company maintains employee and order data in SQL Server.
+-- The HR and Sales departments need a small utility tool built using ADO.NET
+-- to retrieve and validate employee data.
+
+Database Structure:
+
+-- Table: Employees
+-- Columns:
+-- EmpId       -> Employee ID (Primary Key)
+-- Name        -> Employee Name
+-- Department  -> Department Name
+-- Phone       -> Phone Number
+-- Email       -> Email Address
+
+-- Table: Orders
+-- Columns:
+-- OrderId     -> Order ID (Primary Key)
+-- EmpId       -> Foreign Key referencing Employees table
+-- OrderAmount -> Order Value
+-- OrderDate   -> Date of Order
+
+
+========================================================
+Part 1 — Department Employee Lookup
+========================================================
+
+-- HR wants to retrieve employees by department.
+
+You must:
+
+-- 1. Create a stored procedure named:
+--    sp_GetEmployeesByDepartment
+
+-- 2. It should accept:
+--    @Department (Input Parameter)
+
+-- 3. It should return:
+--    Employee details belonging to that department.
+
+Write ADO.NET code to:
+
+-- 1. Accept department name from user input.
+-- 2. Call the stored procedure.
+-- 3. Display employee details.
+
+
+========================================================
+Part 2 — Department Strength Count (OUTPUT Parameter)
+========================================================
+
+-- HR wants to know how many employees are working in a department.
+
+You must:
+
+-- 1. Create a stored procedure named:
+--    sp_GetDepartmentEmployeeCount
+
+-- 2. It should accept:
+--    @Department (Input Parameter)
+
+-- 3. It should return:
+--    @TotalEmployees (Output Parameter)
+
+Write ADO.NET code to:
+
+-- 1. Execute the procedure.
+-- 2. Read the OUTPUT parameter value.
+-- 3. Display result in format:
+--    Total employees in Sales: 8
+
+
+========================================================
+Part 3 — Employee Order Report (INNER JOIN)
+========================================================
+
+-- Sales team wants a report showing employee order activity.
+
+You must:
+
+-- 1. Create a stored procedure named:
+--    sp_GetEmployeeOrders
+
+-- 2. Use INNER JOIN between Employees and Orders tables.
+
+-- 3. Return the following fields:
+--    Employee Name
+--    Department
+--    OrderId
+--    OrderAmount
+--    OrderDate
+
+Write ADO.NET code to:
+
+-- Fetch and display the report.
+
+
+========================================================
+Part 4 — Detect Duplicate Employee Records
+========================================================
+
+-- The HR database may contain duplicate entries due to bulk imports.
+
+Duplicates are identified if:
+
+-- Phone number is repeated
+-- OR
+-- Email address is repeated
+
+You must:
+
+-- 1. Write a SQL query to identify duplicate Phone numbers.
+-- 2. Write a SQL query to display full duplicate employee records.
+-- 3. Create a stored procedure named:
+--    sp_GetDuplicateEmployees
+--    which returns duplicate employee records.
+-- 4. Write ADO.NET code to call the procedure and print duplicates.
+
+
+========================================================
+Part 5 — Integration Logic
+========================================================
+
+-- Write the ADO.NET program flow to perform the following:
+
+-- 1. Ask user for department.
+-- 2. Display employees in that department.
+-- 3. Display department employee count.
+-- 4. Display employee order report.
+-- 5. Display duplicate employee records (if any).
+
+
+========================================================
+Part 6 — Debug & Reasoning
+========================================================
+
+-- The following code fails to retrieve the output parameter value.
+-- Identify and correct the issue.
+
+SqlCommand cmd = new SqlCommand("sp_GetDepartmentEmployeeCount", con);
+cmd.CommandType = CommandType.StoredProcedure;
+
+cmd.Parameters.AddWithValue("@Department", "IT");
+cmd.Parameters.AddWithValue("@TotalEmployees", 0);
+
+cmd.ExecuteNonQuery();
+
+Console.WriteLine(cmd.Parameters["@TotalEmployees"].Value);
+
+-- Explain why this fails.
+-- Correct the mistake.
+-- Provide proper OUTPUT parameter handling.
+
+
+
+
 // ado .net code
 using System;
 using System.Data;

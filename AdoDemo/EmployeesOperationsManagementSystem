@@ -1,0 +1,201 @@
+// ado .net code
+using System;
+using System.Data;
+using Microsoft.Data.SqlClient;
+
+class Program
+{
+    static string connectionString =
+        @"Server=KishanPc\SQLEXPRESS;Database=kishan;Trusted_Connection=True;TrustServerCertificate=True;";
+
+    static void Main()
+    {
+        Console.WriteLine("Enter Department:");
+        string dept = Console.ReadLine() ?? "";
+
+        GetEmployeesByDepartment(dept);
+        GetDepartmentCount(dept);
+        GetEmployeeOrders();
+        GetDuplicateEmployees();
+
+        Console.WriteLine("\nPress Enter to Exit...");
+        Console.ReadLine();
+    }
+
+    static void GetEmployeesByDepartment(string department)
+    {
+        using SqlConnection con = new SqlConnection(connectionString);
+        using SqlCommand cmd = new SqlCommand("sp_GetEmployeesByDepartment", con);
+
+        cmd.CommandType = CommandType.StoredProcedure;
+        cmd.Parameters.AddWithValue("@Department", department);
+
+        con.Open();
+
+        using SqlDataReader reader = cmd.ExecuteReader();
+
+        Console.WriteLine("\n--- Employees ---");
+
+        while (reader.Read())
+        {
+            Console.WriteLine(
+                $"{reader["EmpId"]} | {reader["Name"]} | {reader["Department"]}"
+            );
+        }
+    }
+
+    static void GetDepartmentCount(string department)
+    {
+        using SqlConnection con = new SqlConnection(connectionString);
+        using SqlCommand cmd = new SqlCommand("sp_GetDepartmentEmployeeCount", con);
+
+        cmd.CommandType = CommandType.StoredProcedure;
+        cmd.Parameters.AddWithValue("@Department", department);
+
+        SqlParameter outputParam = new SqlParameter("@TotalEmployees", SqlDbType.Int)
+        {
+            Direction = ParameterDirection.Output
+        };
+
+        cmd.Parameters.Add(outputParam);
+
+        con.Open();
+        cmd.ExecuteNonQuery();
+
+        int total = (int)(cmd.Parameters["@TotalEmployees"].Value ?? 0);
+
+        Console.WriteLine($"\nTotal employees in {department}: {total}");
+    }
+
+    static void GetEmployeeOrders()
+    {
+        using SqlConnection con = new SqlConnection(connectionString);
+        using SqlCommand cmd = new SqlCommand("sp_GetEmployeeOrders", con);
+
+        cmd.CommandType = CommandType.StoredProcedure;
+
+        con.Open();
+
+        using SqlDataReader reader = cmd.ExecuteReader();
+
+        Console.WriteLine("\n--- Employee Orders ---");
+
+        while (reader.Read())
+        {
+            Console.WriteLine(
+                $"{reader["Name"]} | {reader["OrderId"]} | {reader["OrderAmount"]}"
+            );
+        }
+    }
+
+    static void GetDuplicateEmployees()
+    {
+        using SqlConnection con = new SqlConnection(connectionString);
+        using SqlCommand cmd = new SqlCommand("sp_GetDuplicateEmployees", con);
+
+        cmd.CommandType = CommandType.StoredProcedure;
+
+        con.Open();
+
+        using SqlDataReader reader = cmd.ExecuteReader();
+
+        Console.WriteLine("\n--- Duplicate Employees ---");
+        a
+        while (reader.Read())
+        {
+            Console.WriteLine(
+                $"{reader["EmpId"]} | {reader["Phone"]} | {reader["Email"]}"
+            );
+        }
+    }
+}
+
+
+-- sql code
+use kishan;
+
+create table Employees(
+EmpID int primary key identity(1,1),
+Name varchar(100),
+Department varchar(50),
+Phone int,
+Email varchar(50)
+);
+
+insert into employees values
+('Rahul', 'IT', '1111', 'rahul@gmail.com'),
+('Amit', 'Sales', '2222', 'amit@gmail.com'),
+('Priya', 'Sales', '3333', 'priya@gmail.com'),
+('Karan', 'IT', '1111', 'karan@gmail.com'),   -- here i add duplicate phone
+('Neha', 'HR', '5555', 'neha@gmail.com'),
+('Riya', 'HR', '6666', 'neha@gmail.com');  -- here i add duplicate email
+
+select * from employees;
+
+--exec sp_rename 'employee' , 'employees';
+
+create table  Orders(
+OrderId int primary key identity(1,1),
+EmpId int,
+OrderAmount decimal(10,2),
+OrderDate date
+foreign key (EmpId) references employees(EmpID)
+);
+
+
+insert into orders values
+(1, 5000, '2026-02-01'),
+(2, 8000, '2026-02-10'),
+(3, 6000, '2026-02-15');
+
+select * from orders;
+
+create procedure sp_GetEmployeesByDepartment
+@Department varchar(50)
+as 
+begin
+select * from Employees
+where Department = @Department
+end;
+
+
+create procedure sp_GetDepartmentEmployeeCount
+@Department varchar(50),
+@TotalEmployees int output
+as
+begin
+select @TotalEmployees  = count(*)
+from employees where
+Department = @Department
+end;
+
+create procedure sp_GetEmployeeOrders
+as
+begin
+select e.name,e.department,
+o.orderid, o.orderamount, o.orderdate
+from employees e
+inner join orders o
+on e.empid = o.empid
+end;
+
+
+create procedure sp_GetDuplicateEmployees
+as 
+begin
+select * from employees
+where phone in (
+select phone from employees
+group by phone having count(*) >1
+)
+or email in (
+select email from employees
+group by email having count(*)>1
+);
+end
+
+
+
+
+
+

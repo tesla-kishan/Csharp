@@ -1,0 +1,138 @@
+========================================================
+Question 7
+Technology: ADO.NET
+Topic: Call Stored Procedure With Output Parameter
+========================================================
+
+Description:
+-----------
+Write an ADO.NET program to call a Stored Procedure
+that returns the total number of employees using
+an OUTPUT parameter.
+
+The Stored Procedure should return:
+Total Employee Count
+
+Expected Output:
+---------------
+Employee Count: 42
+
+
+========================================================
+Database Table Structure
+========================================================
+
+Table Name: Employees
+
+Columns:
+--------
+EmpId       -> INT (Primary Key)
+Name        -> VARCHAR(50)
+Department  -> VARCHAR(50)
+Phone       -> VARCHAR(15)
+Email       -> VARCHAR(100)
+
+
+========================================================
+Stored Procedure Requirement
+========================================================
+
+Create a stored procedure named:
+
+sp_GetTotalEmployeeCount
+
+The procedure must:
+-------------------
+1. Use an OUTPUT parameter:
+   @TotalCount INT OUTPUT
+
+2. Assign total employee count to the output parameter
+   using COUNT(*)
+
+Example Logic:
+--------------
+SELECT @TotalCount = COUNT(*) FROM Employees;
+
+
+========================================================
+ADO.NET Requirements
+========================================================
+
+Write a Console Application in ADO.NET that:
+
+1. Establishes connection to SQL Server.
+2. Calls the stored procedure.
+3. Defines an OUTPUT parameter.
+4. Executes the procedure using ExecuteNonQuery().
+5. Reads the OUTPUT parameter value.
+6. Displays the result on the console.
+
+Console Output Format:
+----------------------
+Employee Count: 42
+
+
+========================================================
+Concepts Covered
+========================================================
+
+- SqlConnection
+- SqlCommand
+- Stored Procedure Execution
+- OUTPUT Parameter Handling
+- ExecuteNonQuery()
+- ParameterDirection.Output
+
+
+========================================================
+End of Question
+========================================================
+
+
+
+//ADO .Net code
+using System;
+using System.Data;
+using Microsoft.Data.SqlClient;
+
+class Program
+{
+    static void Main()
+    {
+        string connectionString =
+            @"Server=KishanPc\SQLEXPRESS;Database=kishan;Trusted_Connection=True;TrustServerCertificate=True;";
+        using (SqlConnection con = new SqlConnection(connectionString))
+        {
+            SqlCommand cmd = new SqlCommand("GetEmpCount", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            // Output parameter
+            SqlParameter outputParam = new SqlParameter("@TotalCount", SqlDbType.Int);
+            outputParam.Direction = ParameterDirection.Output;
+            cmd.Parameters.Add(outputParam);
+
+            con.Open();
+            cmd.ExecuteNonQuery();
+
+            int count = (int)cmd.Parameters["@TotalCount"].Value;
+
+            Console.WriteLine("Employee Count: " + count);
+        }
+    }
+}
+
+
+
+-- sql code
+
+use kishan ;
+
+select * from employees;
+
+create procedure GetEmpCount
+@TotalCount int output
+as
+begin
+select @TotalCount = count(*) from employees;
+end;
+

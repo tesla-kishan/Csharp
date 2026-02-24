@@ -1,0 +1,185 @@
+========================================================
+Problem Statement
+========================================================
+
+Question 8
+Technology: ADO.NET
+Topic: Transaction Case
+
+
+========================================================
+Description
+========================================================
+
+Write an ADO.NET program to perform a money transfer
+between two accounts using a SQL Transaction.
+
+There are two database operations involved:
+
+1. Deduct amount from Sender account.
+2. Add amount to Receiver account.
+
+Both operations must execute successfully.
+
+If the second query fails,
+the first query must be rolled back.
+
+
+========================================================
+Scenario
+========================================================
+
+Assume a table named: Accounts
+
+Columns:
+--------
+AccountId   -> INT (Primary Key)
+AccountName -> VARCHAR(50)
+Balance     -> DECIMAL(10,2)
+
+
+Example Case:
+-------------
+Sender AccountId   = 1
+Receiver AccountId = 2
+Transfer Amount    = 1000
+
+
+========================================================
+Requirements
+========================================================
+
+You must:
+
+1. Use SqlConnection.
+2. Begin a SQL Transaction using SqlTransaction.
+3. Execute first UPDATE query (Deduct amount).
+4. Execute second UPDATE query (Add amount).
+5. If both succeed → Commit transaction.
+6. If any query fails → Rollback transaction.
+7. Display appropriate message:
+
+   Success:
+   --------
+   Transaction Completed Successfully
+
+   Failure:
+   --------
+   Transaction Failed. Amount Reversed.
+
+
+========================================================
+Expected Output
+========================================================
+
+If transaction succeeds:
+------------------------
+Transaction Completed Successfully
+
+If transaction fails:
+---------------------
+Transaction Failed. Amount Reversed.
+
+
+========================================================
+Concepts Covered
+========================================================
+
+- SqlConnection
+- SqlCommand
+- SqlTransaction
+- BeginTransaction()
+- Commit()
+- Rollback()
+- Exception Handling in ADO.NET
+
+
+========================================================
+End of Question
+========================================================
+
+
+
+//ADO .NET
+using System;
+using System.Data;
+using Microsoft.Data.SqlClient;
+
+class Program
+{
+    static void Main()
+    {
+        string connectionString =
+            @"Server=KishanPc\SQLEXPRESS;Database=kishan;Trusted_Connection=True;TrustServerCertificate=True;";
+
+        int senderId = 1;
+        int receiverId = 2;
+        decimal amount = 1000;
+
+        using (SqlConnection con = new SqlConnection(connectionString))
+        {
+            con.Open();
+
+            // Begin Transaction
+            SqlTransaction transaction = con.BeginTransaction();
+
+            try
+            {
+                // Query 1: Deduct amount from sender
+                SqlCommand deductCmd = new SqlCommand(
+                    "UPDATE Accounts SET Balance = Balance - @Amount WHERE AccountId = @SenderId",
+                    con,
+                    transaction);
+
+                deductCmd.Parameters.AddWithValue("@Amount", amount);
+                deductCmd.Parameters.AddWithValue("@SenderId", senderId);
+
+                deductCmd.ExecuteNonQuery();
+
+                // Query 2: Add amount to receiver
+                SqlCommand addCmd = new SqlCommand(
+                    "UPDATE Accounts SET Balance = Balance + @Amount WHERE AccountId = @ReceiverId",
+                    con,
+                    transaction);
+
+                addCmd.Parameters.AddWithValue("@Amount", amount);
+                addCmd.Parameters.AddWithValue("@ReceiverId", receiverId);
+
+                addCmd.ExecuteNonQuery();
+
+                // If both queries succeed → Commit
+                transaction.Commit();
+
+                Console.WriteLine("Transaction Completed Successfully");
+            }
+            catch (Exception ex)
+            {
+                // If any query fails → Rollback
+                transaction.Rollback();
+
+                Console.WriteLine("Transaction Failed. Amount Reversed.");
+                Console.WriteLine("Error: " + ex.Message);
+            }
+        }
+
+        Console.WriteLine("Press Enter to Exit...");
+        Console.ReadLine();
+    }
+}
+
+
+
+-- sql Code
+
+CREATE TABLE Accounts
+(
+    AccountId INT PRIMARY KEY,
+    AccountName VARCHAR(50),
+    Balance DECIMAL(10,2)
+);
+
+
+INSERT INTO Accounts VALUES (1, 'Kishan', 5000);
+INSERT INTO Accounts VALUES (2, 'Rahul', 3000);
+
+

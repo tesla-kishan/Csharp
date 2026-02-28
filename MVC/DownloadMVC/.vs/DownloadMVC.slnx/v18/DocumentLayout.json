@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MVC\\DownloadMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98F49645-F169-369A-0AF4-3828654C959A}|DownloadMVC\\DownloadMVC.csproj|c:\\mvc\\downloadmvc\\downloadmvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{98F49645-F169-369A-0AF4-3828654C959A}|DownloadMVC\\DownloadMVC.csproj|solutionrelative:downloadmvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F49645-F169-369A-0AF4-3828654C959A}|DownloadMVC\\DownloadMVC.csproj|c:\\mvc\\downloadmvc\\downloadmvc\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F49645-F169-369A-0AF4-3828654C959A}|DownloadMVC\\DownloadMVC.csproj|solutionrelative:downloadmvc\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F49645-F169-369A-0AF4-3828654C959A}|DownloadMVC\\DownloadMVC.csproj|c:\\mvc\\downloadmvc\\downloadmvc\\views\\application\\idcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98F49645-F169-369A-0AF4-3828654C959A}|DownloadMVC\\DownloadMVC.csproj|solutionrelative:downloadmvc\\views\\application\\idcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F49645-F169-369A-0AF4-3828654C959A}|DownloadMVC\\DownloadMVC.csproj|c:\\mvc\\downloadmvc\\downloadmvc\\views\\application\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98F49645-F169-369A-0AF4-3828654C959A}|DownloadMVC\\DownloadMVC.csproj|solutionrelative:downloadmvc\\views\\application\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F49645-F169-369A-0AF4-3828654C959A}|DownloadMVC\\DownloadMVC.csproj|c:\\mvc\\downloadmvc\\downloadmvc\\models\\collegeapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F49645-F169-369A-0AF4-3828654C959A}|DownloadMVC\\DownloadMVC.csproj|solutionrelative:downloadmvc\\models\\collegeapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F49645-F169-369A-0AF4-3828654C959A}|DownloadMVC\\DownloadMVC.csproj|c:\\mvc\\downloadmvc\\downloadmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F49645-F169-369A-0AF4-3828654C959A}|DownloadMVC\\DownloadMVC.csproj|solutionrelative:downloadmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F49645-F169-369A-0AF4-3828654C959A}|DownloadMVC\\DownloadMVC.csproj|c:\\mvc\\downloadmvc\\downloadmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{98F49645-F169-369A-0AF4-3828654C959A}|DownloadMVC\\DownloadMVC.csproj|solutionrelative:downloadmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\MVC\\DownloadMVC\\DownloadMVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "DownloadMVC\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\MVC\\DownloadMVC\\DownloadMVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "DownloadMVC\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-26T10:36:52.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IdCard.cshtml",
+              "DocumentMoniker": "C:\\MVC\\DownloadMVC\\DownloadMVC\\Views\\Application\\IdCard.cshtml",
+              "RelativeDocumentMoniker": "DownloadMVC\\Views\\Application\\IdCard.cshtml",
+              "ToolTip": "C:\\MVC\\DownloadMVC\\DownloadMVC\\Views\\Application\\IdCard.cshtml",
+              "RelativeToolTip": "DownloadMVC\\Views\\Application\\IdCard.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAIBJwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T06:19:38.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\MVC\\DownloadMVC\\DownloadMVC\\Views\\Application\\Create.cshtml",
+              "RelativeDocumentMoniker": "DownloadMVC\\Views\\Application\\Create.cshtml",
+              "ToolTip": "C:\\MVC\\DownloadMVC\\DownloadMVC\\Views\\Application\\Create.cshtml",
+              "RelativeToolTip": "DownloadMVC\\Views\\Application\\Create.cshtml",
+              "ViewState": "AgIAAHAAAAAAAAAAAIBJwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T06:19:13.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationController.cs",
+              "DocumentMoniker": "C:\\MVC\\DownloadMVC\\DownloadMVC\\Controllers\\ApplicationController.cs",
+              "RelativeDocumentMoniker": "DownloadMVC\\Controllers\\ApplicationController.cs",
+              "ToolTip": "C:\\MVC\\DownloadMVC\\DownloadMVC\\Controllers\\ApplicationController.cs",
+              "RelativeToolTip": "DownloadMVC\\Controllers\\ApplicationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T06:17:36.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CollegeApplication.cs",
+              "DocumentMoniker": "C:\\MVC\\DownloadMVC\\DownloadMVC\\Models\\CollegeApplication.cs",
+              "RelativeDocumentMoniker": "DownloadMVC\\Models\\CollegeApplication.cs",
+              "ToolTip": "C:\\MVC\\DownloadMVC\\DownloadMVC\\Models\\CollegeApplication.cs",
+              "RelativeToolTip": "DownloadMVC\\Models\\CollegeApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T06:15:12.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\MVC\\DownloadMVC\\DownloadMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DownloadMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\MVC\\DownloadMVC\\DownloadMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DownloadMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T06:01:39.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\MVC\\DownloadMVC\\DownloadMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "DownloadMVC\\appsettings.json",
+              "ToolTip": "C:\\MVC\\DownloadMVC\\DownloadMVC\\appsettings.json",
+              "RelativeToolTip": "DownloadMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-26T06:01:28.135Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

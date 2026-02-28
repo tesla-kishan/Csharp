@@ -1,0 +1,68 @@
+﻿@model WebApplication1.Models.StudentIndexViewModel
+@{
+    var editStudent = Model.EditStudent;
+}
+
+<h2>Student CRUD - ADO.NET</h2>
+
+@Html.ValidationSummary(false, "", new { @class = "text-danger" })
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<!-- CREATE / EDIT FORM -->
+<form asp-action="Save" method="post">
+    @Html.AntiForgeryToken()
+
+    <input asp-for="EditStudent.Id" type="hidden" />
+
+    <label asp-for="EditStudent.Name"></label>
+    <input asp-for="EditStudent.Name" />
+    <span asp-validation-for="EditStudent.Name" class="text-danger"></span>
+
+    <label asp-for="EditStudent.Marks"></label>
+    <input asp-for="EditStudent.Marks" />
+    <span asp-validation-for="EditStudent.Marks" class="text-danger"></span>
+
+    <button type="submit">
+        @(editStudent?.Id == 0 ? "Create" : "Update")
+    </button>
+
+</form>
+
+<hr />
+
+<!-- TABLE -->
+<table>
+    <caption>Showing @Model.Students.Count() students</caption>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Marks</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var item in Model.Students)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Marks</td>
+            <td>
+                <a asp-action="Index" asp-route-editId="@item.Id">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

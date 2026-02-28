@@ -1,0 +1,250 @@
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using System.Data;
+using Microsoft.Data.SqlClient;
+using CRUD_Operations_using_MVC.Models;
+using Microsoft.Extensions.Configuration;
+using System;
+
+namespace CRUD_Operations_using_MVC.Controllers
+{
+    public class ApplicationsController : Controller
+    {
+        private readonly string _connectionString;
+
+        public ApplicationsController(IConfiguration configuration)
+        {
+            _connectionString = configuration.GetConnectionString("DefaultConnection")
+                ?? throw new InvalidOperationException("DefaultConnection not found in configuration.");
+        }
+
+        // GET: Applications
+        public async Task<IActionResult> Index()
+        {
+            var list = new List<Application>();
+            const string sql = @"SELECT Id, ApplicantName, Email, Phone, Position, ResumeText, CreatedAt, RowVersion
+                                 FROM dbo.Applications
+                                 ORDER BY ApplicantName";
+
+            using var conn = new SqlConnection(_connectionString);
+            using var cmd = new SqlCommand(sql, conn);
+            await conn.OpenAsync();
+            using var rdr = await cmd.ExecuteReaderAsync();
+            while (await rdr.ReadAsync())
+            {
+                list.Add(MapReader(rdr));
+            }
+
+            return View(list);
+        }
+
+        // GET: Applications/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null) return NotFound();
+
+            const string sql = @"SELECT Id, ApplicantName, Email, Phone, Position, ResumeText, CreatedAt, RowVersion
+                                 FROM dbo.Applications WHERE Id = @Id";
+
+            using var conn = new SqlConnection(_connectionString);
+            using var cmd = new SqlCommand(sql, conn);
+            cmd.Parameters.Add(new SqlParameter("@Id", SqlDbType.Int) { Value = id.Value });
+            await conn.OpenAsync();
+            using var rdr = await cmd.ExecuteReaderAsync();
+            if (!await rdr.ReadAsync()) return NotFound();
+
+            var application = MapReader(rdr);
+            return View(application);
+        }
+
+        // GET: Applications/Create
+        public IActionResult Create() => View();
+
+        // POST: Applications/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("ApplicantName,Email,Phone,Position,ResumeText")] Application application)
+        {
+            if (!ModelState.IsValid) return View(application);
+
+            // uniqueness check for email
+            const string checkSql = "SELECT COUNT(1) FROM dbo.Applications WHERE Email = @Email";
+            using (var conn = new SqlConnection(_connectionString))
+            using (var cmd = new SqlCommand(checkSql, conn))
+            {
+                cmd.Parameters.Add(new SqlParameter("@Email", SqlDbType.NVarChar, 200) { Value = application.Email });
+                await conn.OpenAsync();
+                var exists = (int)await cmd.ExecuteScalarAsync() > 0;
+                if (exists)
+                {
+                    ModelState.AddModelError(nameof(application.Email), "An application with that email already exists.");
+                    return View(application);
+                }
+            }
+
+            const string insertSql = @"INSERT INTO dbo.Applications (ApplicantName, Email, Phone, Position, ResumeText)
+                                       VALUES (@ApplicantName, @Email, @Phone, @Position, @ResumeText);";
+            using (var conn = new SqlConnection(_connectionString))
+            using (var cmd = new SqlCommand(insertSql, conn))
+            {
+                cmd.Parameters.Add(new SqlParameter("@ApplicantName", SqlDbType.NVarChar, 200) { Value = application.ApplicantName });
+                cmd.Parameters.Add(new SqlParameter("@Email", SqlDbType.NVarChar, 200) { Value = application.Email });
+                cmd.Parameters.Add(new SqlParameter("@Phone", SqlDbType.NVarChar, 20) { Value = (object?)application.Phone ?? DBNull.Value });
+                cmd.Parameters.Add(new SqlParameter("@Position", SqlDbType.NVarChar, 100) { Value = application.Position });
+                cmd.Parameters.Add(new SqlParameter("@ResumeText", SqlDbType.NVarChar, -1) { Value = (object?)application.ResumeText ?? DBNull.Value });
+                await conn.OpenAsync();
+                await cmd.ExecuteNonQueryAsync();
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        // GET: Applications/Edit/5
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null) return NotFound();
+
+            const string sql = @"SELECT Id, ApplicantName, Email, Phone, Position, ResumeText, CreatedAt, RowVersion
+                                 FROM dbo.Applications WHERE Id = @Id";
+
+            using var conn = new SqlConnection(_connectionString);
+            using var cmd = new SqlCommand(sql, conn);
+            cmd.Parameters.Add(new SqlParameter("@Id", SqlDbType.Int) { Value = id.Value });
+            await conn.OpenAsync();
+            using var rdr = await cmd.ExecuteReaderAsync();
+            if (!await rdr.ReadAsync()) return NotFound();
+
+            var application = MapReader(rdr);
+            return View(application);
+        }
+
+        // POST: Applications/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("Id,ApplicantName,Email,Phone,Position,ResumeText")] Application application, string? rowVersionBase64)
+        {
+            if (id != application.Id) return NotFound();
+
+            if (!ModelState.IsValid) return View(application);
+
+            // uniqueness checks excluding current record
+            const string uniqSql = "SELECT COUNT(1) FROM dbo.Applications WHERE Id <> @Id AND Email = @Email";
+            using (var conn = new SqlConnection(_connectionString))
+            using (var cmd = new SqlCommand(uniqSql, conn))
+            {
+                cmd.Parameters.Add(new SqlParameter("@Id", SqlDbType.Int) { Value = application.Id });
+                cmd.Parameters.Add(new SqlParameter("@Email", SqlDbType.NVarChar, 200) { Value = application.Email });
+                await conn.OpenAsync();
+                var exists = (int)await cmd.ExecuteScalarAsync() > 0;
+                if (exists)
+                {
+                    ModelState.AddModelError(nameof(application.Email), "An application with that email already exists.");
+                    return View(application);
+                }
+            }
+
+            if (string.IsNullOrEmpty(rowVersionBase64))
+            {
+                ModelState.AddModelError(string.Empty, "Invalid concurrency token.");
+                return View(application);
+            }
+
+            var originalRowVersion = Convert.FromBase64String(rowVersionBase64);
+
+            const string updateSql = @"UPDATE dbo.Applications
+                                       SET ApplicantName = @ApplicantName,
+                                           Email = @Email,
+                                           Phone = @Phone,
+                                           Position = @Position,
+                                           ResumeText = @ResumeText
+                                       WHERE Id = @Id AND RowVersion = @RowVersion";
+
+            using (var conn = new SqlConnection(_connectionString))
+            using (var cmd = new SqlCommand(updateSql, conn))
+            {
+                cmd.Parameters.Add(new SqlParameter("@ApplicantName", SqlDbType.NVarChar, 200) { Value = application.ApplicantName });
+                cmd.Parameters.Add(new SqlParameter("@Email", SqlDbType.NVarChar, 200) { Value = application.Email });
+                cmd.Parameters.Add(new SqlParameter("@Phone", SqlDbType.NVarChar, 20) { Value = (object?)application.Phone ?? DBNull.Value });
+                cmd.Parameters.Add(new SqlParameter("@Position", SqlDbType.NVarChar, 100) { Value = application.Position });
+                cmd.Parameters.Add(new SqlParameter("@ResumeText", SqlDbType.NVarChar, -1) { Value = (object?)application.ResumeText ?? DBNull.Value });
+                cmd.Parameters.Add(new SqlParameter("@Id", SqlDbType.Int) { Value = application.Id });
+                var rvParam = new SqlParameter("@RowVersion", SqlDbType.Timestamp) { Value = originalRowVersion };
+                cmd.Parameters.Add(rvParam);
+
+                await conn.OpenAsync();
+                var rows = await cmd.ExecuteNonQueryAsync();
+                if (rows == 0)
+                {
+                    ModelState.AddModelError(string.Empty, "The record you attempted to edit was modified by another user. Reload and try again.");
+                    return View(application);
+                }
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        // GET: Applications/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null) return NotFound();
+
+            const string sql = @"SELECT Id, ApplicantName, Email, Phone, Position, ResumeText, CreatedAt, RowVersion
+                                 FROM dbo.Applications WHERE Id = @Id";
+
+            using var conn = new SqlConnection(_connectionString);
+            using var cmd = new SqlCommand(sql, conn);
+            cmd.Parameters.Add(new SqlParameter("@Id", SqlDbType.Int) { Value = id.Value });
+            await conn.OpenAsync();
+            using var rdr = await cmd.ExecuteReaderAsync();
+            if (!await rdr.ReadAsync()) return NotFound();
+
+            var application = MapReader(rdr);
+            return View(application);
+        }
+
+        // POST: Applications/Delete/5
+        [HttpPost, ActionName("DeleteConfirmed")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id, string? rowVersionBase64)
+        {
+            if (string.IsNullOrEmpty(rowVersionBase64))
+            {
+                ModelState.AddModelError(string.Empty, "Invalid concurrency token.");
+                return RedirectToAction(nameof(Delete), new { id });
+            }
+
+            var originalRowVersion = Convert.FromBase64String(rowVersionBase64);
+
+            const string deleteSql = "DELETE FROM dbo.Applications WHERE Id = @Id AND RowVersion = @RowVersion";
+            using var conn = new SqlConnection(_connectionString);
+            using var cmd = new SqlCommand(deleteSql, conn);
+            cmd.Parameters.Add(new SqlParameter("@Id", SqlDbType.Int) { Value = id });
+            cmd.Parameters.Add(new SqlParameter("@RowVersion", SqlDbType.Timestamp) { Value = originalRowVersion });
+            await conn.OpenAsync();
+            var rows = await cmd.ExecuteNonQueryAsync();
+            if (rows == 0)
+            {
+                ModelState.AddModelError(string.Empty, "The record you attempted to delete was modified by another user. Reload and try again.");
+                return RedirectToAction(nameof(Delete), new { id });
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        private static Application MapReader(SqlDataReader rdr)
+        {
+            return new Application
+            {
+                Id = rdr.GetInt32(rdr.GetOrdinal("Id")),
+                ApplicantName = rdr.GetString(rdr.GetOrdinal("ApplicantName")),
+                Email = rdr.GetString(rdr.GetOrdinal("Email")),
+                Phone = rdr.IsDBNull(rdr.GetOrdinal("Phone")) ? null : rdr.GetString(rdr.GetOrdinal("Phone")),
+                Position = rdr.GetString(rdr.GetOrdinal("Position")),
+                ResumeText = rdr.IsDBNull(rdr.GetOrdinal("ResumeText")) ? null : rdr.GetString(rdr.GetOrdinal("ResumeText")),
+                CreatedAt = rdr.GetDateTime(rdr.GetOrdinal("CreatedAt")),
+                RowVersion = (byte[])rdr[ rdr.GetOrdinal("RowVersion") ]
+            };
+        }
+    }
+}

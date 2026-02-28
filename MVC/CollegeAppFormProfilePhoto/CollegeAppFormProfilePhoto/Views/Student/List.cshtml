@@ -1,0 +1,24 @@
+﻿@model List<CollegeAppFormProfilePhoto.Models.StudentViewModel>
+
+<h2>Submitted Applications</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Name</th>
+        <th>Father</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Percentage</th>
+    </tr>
+
+    @foreach (var student in Model)
+    {
+        <tr>
+            <td>@student.FirstName @student.LastName</td>
+            <td>@student.FatherName</td>
+            <td>@student.PhoneNumber</td>
+            <td>@student.Email</td>
+            <td>@student.TwelfthPercentage</td>
+        </tr>
+    }
+</table>

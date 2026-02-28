@@ -1,0 +1,170 @@
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
+using WebApplication1.Models;
+
+namespace WebApplication1.Controllers
+{
+    public class StudentController : Controller
+    {
+        private readonly IConfiguration _configuration;
+        private const string TableName = "Capgemini";
+
+        public StudentController(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
+        private string GetConnection()
+        {
+            return _configuration.GetConnectionString("DefaultConnection")
+                ?? throw new InvalidOperationException("Connection string 'DefaultConnection' is not configured.");
+        }
+
+        public IActionResult Index(int? editId)
+        {
+            var students = GetStudents();
+            Student? editStudent = null;
+
+            if (editId != null)
+            {
+                editStudent = students.FirstOrDefault(x => x.Id == editId);
+            }
+
+            var vm = new WebApplication1.Models.StudentIndexViewModel
+            {
+                Students = students,
+                EditStudent = editStudent
+            };
+
+            return View(vm);
+        }
+
+        private List<Student> GetStudents()
+        {
+            var students = new List<Student>();
+
+            using SqlConnection con = new SqlConnection(GetConnection());
+            con.Open();
+
+            EnsureTableExists(con);
+
+            string query = $"SELECT * FROM {TableName}";
+            using SqlCommand cmd = new SqlCommand(query, con);
+            using SqlDataReader reader = cmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                students.Add(new Student
+                {
+                    Id = (int)reader["Id"],
+                    Name = reader["Name"].ToString() ?? string.Empty,
+                    Marks = (int)reader["Marks"]
+                });
+            }
+
+            return students;
+        }
+
+        private void EnsureTableExists(SqlConnection con)
+        {
+            // Creates the table if it does not exist. This helps first-time runs during development.
+            using SqlCommand cmd = new SqlCommand($@"
+IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = '{TableName}')
+BEGIN
+    CREATE TABLE {TableName} (
+        Id INT IDENTITY(1,1) PRIMARY KEY,
+        Name NVARCHAR(100) NOT NULL,
+        Marks INT NOT NULL
+    )
+END", con);
+
+            cmd.ExecuteNonQuery();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Save([Bind(Prefix = "EditStudent")] Student student)
+        {
+            // If model is invalid, re-display the form with validation messages and posted data
+            if (!ModelState.IsValid)
+            {
+                var vm = new StudentIndexViewModel
+                {
+                    Students = GetStudents(),
+                    EditStudent = student
+                };
+
+                return View("Index", vm);
+            }
+
+            try
+            {
+                using SqlConnection con = new SqlConnection(GetConnection());
+                con.Open();
+
+                using SqlCommand cmd = new SqlCommand();
+                cmd.Connection = con;
+
+                EnsureTableExists(con);
+
+                if (student.Id == 0)
+                {
+                    cmd.CommandText = $"INSERT INTO {TableName} (Name, Marks) VALUES (@Name,@Marks)";
+                }
+                else
+                {
+                    cmd.CommandText = $"UPDATE {TableName} SET Name=@Name, Marks=@Marks WHERE Id=@Id";
+                    cmd.Parameters.AddWithValue("@Id", student.Id);
+                }
+
+                cmd.Parameters.AddWithValue("@Name", student.Name ?? string.Empty);
+                cmd.Parameters.AddWithValue("@Marks", student.Marks);
+
+                int rows = cmd.ExecuteNonQuery();
+
+                var vm = new StudentIndexViewModel
+                {
+                    Students = GetStudents(),
+                    EditStudent = new Student()
+                };
+
+                TempData["Success"] = rows > 0 ? $"Saved successfully. Rows affected: {rows}" : "No rows affected.";
+                return View("Index", vm);
+            }
+            catch (Exception ex)
+            {
+                var vm = new StudentIndexViewModel
+                {
+                    Students = GetStudents(),
+                    EditStudent = student
+                };
+
+                // Return full exception message to the view for debugging
+                ModelState.AddModelError(string.Empty, ex.Message);
+                return View("Index", vm);
+            }
+        }
+
+        public IActionResult Delete(int id)
+        {
+            try
+            {
+                using SqlConnection con = new SqlConnection(GetConnection());
+                con.Open();
+
+                EnsureTableExists(con);
+
+                using SqlCommand cmd = new SqlCommand($"DELETE FROM {TableName} WHERE Id=@Id", con);
+                cmd.Parameters.AddWithValue("@Id", id);
+                int rows = cmd.ExecuteNonQuery();
+                TempData["Success"] = rows > 0 ? "Deleted successfully." : "No rows deleted.";
+            }
+            catch (Exception ex)
+            {
+                TempData["Error"] = ex.Message;
+            }
+
+            return RedirectToAction("Index");
+        }
+    }
+}

@@ -1,0 +1,210 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MVC\\CRUD Operations using MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|c:\\mvc\\crud operations using mvc\\crud operations using mvc\\sql\\createapplicationstable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|solutionrelative:crud operations using mvc\\sql\\createapplicationstable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|c:\\mvc\\crud operations using mvc\\crud operations using mvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|solutionrelative:crud operations using mvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|c:\\mvc\\crud operations using mvc\\crud operations using mvc\\models\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|solutionrelative:crud operations using mvc\\models\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|c:\\mvc\\crud operations using mvc\\crud operations using mvc\\controllers\\applicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|solutionrelative:crud operations using mvc\\controllers\\applicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|c:\\mvc\\crud operations using mvc\\crud operations using mvc\\views\\applications\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|solutionrelative:crud operations using mvc\\views\\applications\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|c:\\mvc\\crud operations using mvc\\crud operations using mvc\\views\\applications\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|solutionrelative:crud operations using mvc\\views\\applications\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|c:\\mvc\\crud operations using mvc\\crud operations using mvc\\views\\applications\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|solutionrelative:crud operations using mvc\\views\\applications\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|c:\\mvc\\crud operations using mvc\\crud operations using mvc\\views\\applications\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|solutionrelative:crud operations using mvc\\views\\applications\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|c:\\mvc\\crud operations using mvc\\crud operations using mvc\\views\\applications\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|solutionrelative:crud operations using mvc\\views\\applications\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|c:\\mvc\\crud operations using mvc\\crud operations using mvc\\sql\\createapplicationstable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|solutionrelative:crud operations using mvc\\sql\\createapplicationstable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|c:\\mvc\\crud operations using mvc\\crud operations using mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|solutionrelative:crud operations using mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|c:\\mvc\\crud operations using mvc\\crud operations using mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94CFF3EE-10B9-42D2-BD8F-A29690575737}|CRUD Operations using MVC\\CRUD Operations using MVC.csproj|solutionrelative:crud operations using mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Program.cs",
+              "RelativeDocumentMoniker": "CRUD Operations using MVC\\Program.cs",
+              "ToolTip": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Program.cs",
+              "RelativeToolTip": "CRUD Operations using MVC\\Program.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAIBJwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T06:24:54.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateApplicationsTable.sql ",
+              "DocumentMoniker": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\sql\\CreateApplicationsTable.sql",
+              "RelativeDocumentMoniker": "CRUD Operations using MVC\\sql\\CreateApplicationsTable.sql",
+              "ToolTip": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\sql\\CreateApplicationsTable.sql",
+              "RelativeToolTip": "CRUD Operations using MVC\\sql\\CreateApplicationsTable.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-02-23T06:24:34.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Views\\Applications\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRUD Operations using MVC\\Views\\Applications\\Delete.cshtml",
+              "ToolTip": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Views\\Applications\\Delete.cshtml",
+              "RelativeToolTip": "CRUD Operations using MVC\\Views\\Applications\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T06:24:21.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Views\\Applications\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRUD Operations using MVC\\Views\\Applications\\Edit.cshtml",
+              "ToolTip": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Views\\Applications\\Edit.cshtml",
+              "RelativeToolTip": "CRUD Operations using MVC\\Views\\Applications\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T06:24:14.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CRUD Operations using MVC\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CRUD Operations using MVC\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T06:22:58.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "CRUD Operations using MVC\\appsettings.json",
+              "ToolTip": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\appsettings.json",
+              "RelativeToolTip": "CRUD Operations using MVC\\appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-23T06:25:01.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationsController.cs",
+              "DocumentMoniker": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Controllers\\ApplicationsController.cs",
+              "RelativeDocumentMoniker": "CRUD Operations using MVC\\Controllers\\ApplicationsController.cs",
+              "ToolTip": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Controllers\\ApplicationsController.cs",
+              "RelativeToolTip": "CRUD Operations using MVC\\Controllers\\ApplicationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T06:23:24.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Views\\Applications\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUD Operations using MVC\\Views\\Applications\\Index.cshtml",
+              "ToolTip": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Views\\Applications\\Index.cshtml",
+              "RelativeToolTip": "CRUD Operations using MVC\\Views\\Applications\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T06:23:34.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Views\\Applications\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRUD Operations using MVC\\Views\\Applications\\Details.cshtml",
+              "ToolTip": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Views\\Applications\\Details.cshtml",
+              "RelativeToolTip": "CRUD Operations using MVC\\Views\\Applications\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T06:23:50.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Models\\Application.cs",
+              "RelativeDocumentMoniker": "CRUD Operations using MVC\\Models\\Application.cs",
+              "ToolTip": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Models\\Application.cs",
+              "RelativeToolTip": "CRUD Operations using MVC\\Models\\Application.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T06:22:34.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Views\\Applications\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRUD Operations using MVC\\Views\\Applications\\Create.cshtml",
+              "ToolTip": "C:\\MVC\\CRUD Operations using MVC\\CRUD Operations using MVC\\Views\\Applications\\Create.cshtml",
+              "RelativeToolTip": "CRUD Operations using MVC\\Views\\Applications\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T06:24:02.808Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

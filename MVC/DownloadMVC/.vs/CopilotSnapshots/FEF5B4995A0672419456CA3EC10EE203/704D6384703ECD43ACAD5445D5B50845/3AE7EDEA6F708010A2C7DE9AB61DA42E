@@ -1,0 +1,16 @@
+﻿@model DownloadMVC.Models.CollegeApplication
+
+<div class="id-card-preview mx-auto text-center" style="max-width:360px;">
+    <img src="@Model.PhotoPath" class="avatar mb-3" alt="Profile" />
+    <h3 class="text-white">@Model.FirstName @Model.LastName</h3>
+    <p class="text-white">ID: @Model.Id</p>
+
+    <div class="d-flex justify-content-center gap-2 mt-3">
+        <a class="btn btn-light btn-sm" href="/Application/DownloadPdf/@Model.Id">
+            Download Application PDF
+        </a>
+        <a class="btn btn-primary btn-sm" href="/Application/DownloadIdCard/@Model.Id">
+            Download ID Card
+        </a>
+    </div>
+</div>

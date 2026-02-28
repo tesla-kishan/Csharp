@@ -1,0 +1,147 @@
+﻿using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using CRUD_Operations_using_MVC.Data;
+using CRUD_Operations_using_MVC.Models;
+
+namespace CRUD_Operations_using_MVC.Controllers
+{
+    public class ApplicationsController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+
+        public ApplicationsController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        // GET: Applications
+        public async Task<IActionResult> Index()
+        {
+            var items = await _context.Applications
+                .AsNoTracking()
+                .OrderBy(a => a.ApplicantName)
+                .ToListAsync();
+            return View(items);
+        }
+
+        // GET: Applications/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null) return NotFound();
+
+            var application = await _context.Applications
+                .AsNoTracking()
+                .FirstOrDefaultAsync(m => m.Id == id);
+
+            if (application == null) return NotFound();
+
+            return View(application);
+        }
+
+        // GET: Applications/Create
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: Applications/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("ApplicantName,Email,Phone,Position,ResumeText")] Application application)
+        {
+            if (!ModelState.IsValid) return View(application);
+
+            // uniqueness check for email
+            if (await _context.Applications.AnyAsync(a => a.Email == application.Email))
+            {
+                ModelState.AddModelError(nameof(application.Email), "An application with that email already exists.");
+                return View(application);
+            }
+
+            _context.Add(application);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        // GET: Applications/Edit/5
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null) return NotFound();
+
+            var application = await _context.Applications.FindAsync(id);
+            if (application == null) return NotFound();
+            return View(application);
+        }
+
+        // POST: Applications/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("Id,ApplicantName,Email,Phone,Position,ResumeText,RowVersion")] Application application)
+        {
+            if (id != application.Id) return NotFound();
+
+            if (!ModelState.IsValid) return View(application);
+
+            // uniqueness checks excluding current record
+            if (await _context.Applications.AnyAsync(a => a.Id != application.Id && a.Email == application.Email))
+            {
+                ModelState.AddModelError(nameof(application.Email), "An application with that email already exists.");
+                return View(application);
+            }
+
+            _context.Entry(application).Property("RowVersion").OriginalValue = application.RowVersion;
+            _context.Entry(application).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!await _context.Applications.AnyAsync(e => e.Id == application.Id))
+                {
+                    return NotFound();
+                }
+                ModelState.AddModelError(string.Empty, "The record you attempted to edit was modified by another user. Reload and try again.");
+                return View(application);
+            }
+        }
+
+        // GET: Applications/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null) return NotFound();
+
+            var application = await _context.Applications
+                .AsNoTracking()
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (application == null) return NotFound();
+
+            return View(application);
+        }
+
+        // POST: Applications/Delete/5
+        [HttpPost, ActionName("DeleteConfirmed")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var application = await _context.Applications.FindAsync(id);
+            if (application == null) return NotFound();
+
+            try
+            {
+                _context.Applications.Remove(application);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                ModelState.AddModelError(string.Empty, "The record you attempted to delete was modified by another user. Reload and try again.");
+                return View(application);
+            }
+        }
+    }
+}

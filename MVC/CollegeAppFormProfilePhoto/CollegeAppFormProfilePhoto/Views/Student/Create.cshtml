@@ -1,0 +1,43 @@
+﻿@model CollegeAppFormProfilePhoto.Models.StudentViewModel
+
+@{
+    ViewData["Title"] = "Student Registration";
+}
+
+<h2 class="form-title">College Application Form</h2>
+
+<form asp-action="Create" enctype="multipart/form-data" method="post" class="form-box">
+
+    <input asp-for="FirstName" placeholder="First Name" />
+    <span asp-validation-for="FirstName"></span>
+
+    <input asp-for="LastName" placeholder="Last Name" />
+    <span asp-validation-for="LastName"></span>
+
+    <input asp-for="SurName" placeholder="Surname" />
+    <span asp-validation-for="SurName"></span>
+
+    <input asp-for="DOB" type="date" />
+    <span asp-validation-for="DOB"></span>
+
+    <input asp-for="TwelfthPercentage" placeholder="12th Percentage" />
+    <span asp-validation-for="TwelfthPercentage"></span>
+
+    <input asp-for="FatherName" placeholder="Father's Name" />
+    <span asp-validation-for="FatherName"></span>
+
+    <input asp-for="PhoneNumber" placeholder="Phone Number" />
+    <span asp-validation-for="PhoneNumber"></span>
+
+    <input asp-for="Email" placeholder="Email" />
+    <span asp-validation-for="Email"></span>
+
+    <input asp-for="ProfilePhoto" type="file" />
+    <span asp-validation-for="ProfilePhoto"></span>
+
+    <button type="submit">Submit</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

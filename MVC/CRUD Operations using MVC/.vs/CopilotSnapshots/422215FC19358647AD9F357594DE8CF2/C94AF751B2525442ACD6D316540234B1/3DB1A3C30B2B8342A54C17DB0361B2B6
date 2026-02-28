@@ -1,0 +1,26 @@
+﻿using Microsoft.EntityFrameworkCore;
+using CRUD_Operations_using_MVC.Models;
+
+namespace CRUD_Operations_using_MVC.Data
+{
+    public class ApplicationDbContext : DbContext
+    {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
+        {
+        }
+
+        public DbSet<Application> Applications { get; set; } = null!;
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Application>(b =>
+            {
+                b.HasIndex(a => a.Email).IsUnique();
+                b.Property(a => a.CreatedAt).HasDefaultValueSql("SYSUTCDATETIME()");
+            });
+        }
+    }
+}

@@ -1,0 +1,94 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
+using WebApplication1.Models;
+
+namespace WebApplication1.Controllers
+{
+    public class StudentController : Controller
+    {
+        private readonly IConfiguration _configuration;
+
+        public StudentController(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
+        private string GetConnection()
+        {
+            return _configuration.GetConnectionString("DefaultConnection");
+        }
+
+        public IActionResult Index(int? editId)
+        {
+            List<Student> students = new List<Student>();
+            Student? editStudent = null;
+
+            using SqlConnection con = new SqlConnection(GetConnection());
+            con.Open();
+
+            string query = "SELECT * FROM Capgemini";
+            SqlCommand cmd = new SqlCommand(query, con);
+            SqlDataReader reader = cmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                students.Add(new Student
+                {
+                    Id = (int)reader["Id"],
+                    Name = reader["Name"].ToString(),
+                    Marks = (int)reader["Marks"]
+                });
+            }
+
+            if (editId != null)
+            {
+                editStudent = students.FirstOrDefault(x => x.Id == editId);
+            }
+
+            ViewBag.EditStudent = editStudent;
+
+            return View(students);
+        }
+
+        [HttpPost]
+        public IActionResult Save(Student student)
+        {
+            if (!ModelState.IsValid)
+                return RedirectToAction("Index");
+
+            using SqlConnection con = new SqlConnection(GetConnection());
+            con.Open();
+
+            SqlCommand cmd;
+
+            if (student.Id == 0)
+            {
+                cmd = new SqlCommand("INSERT INTO Capgemini (Name, Marks) VALUES (@Name,@Marks)", con);
+            }
+            else
+            {
+                cmd = new SqlCommand("UPDATE Capgemini SET Name=@Name, Marks=@Marks WHERE Id=@Id", con);
+                cmd.Parameters.AddWithValue("@Id", student.Id);
+            }
+
+            cmd.Parameters.AddWithValue("@Name", student.Name ?? string.Empty);
+            cmd.Parameters.AddWithValue("@Marks", student.Marks);
+
+            cmd.ExecuteNonQuery();
+
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Delete(int id)
+        {
+            using SqlConnection con = new SqlConnection(GetConnection());
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand("DELETE FROM Capgemini WHERE Id=@Id", con);
+            cmd.Parameters.AddWithValue("@Id", id);
+            cmd.ExecuteNonQuery();
+
+            return RedirectToAction("Index");
+        }
+    }
+}

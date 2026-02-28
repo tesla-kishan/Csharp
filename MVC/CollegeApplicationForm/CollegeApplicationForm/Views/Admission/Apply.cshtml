@@ -1,0 +1,69 @@
+﻿@model CollegeApplicationForm.Models.AdmissionForm
+
+<h2>LPU Admission Form</h2>
+
+<form asp-action="Apply" method="post">
+
+    <div>
+        Name:
+        <input asp-for="FullName" />
+        <span asp-validation-for="FullName" style="color:red"></span>
+    </div>
+
+    <div>
+        Email:
+        <input asp-for="Email" />
+        <span asp-validation-for="Email" style="color:red"></span>
+    </div>
+
+    <div>
+        Phone:
+        <input asp-for="Phone" />
+        <span asp-validation-for="Phone" style="color:red"></span>
+    </div>
+
+    <div>
+        DOB:
+        <input asp-for="DOB" type="date" />
+        <span asp-validation-for="DOB" style="color:red"></span>
+    </div>
+
+    <div>
+        Gender:
+        <select asp-for="Gender">
+            <option value="">Select</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+    </div>
+
+    <div>
+        Course:
+        <select asp-for="Course">
+            <option value="">Select</option>
+            <option>B.Tech CSE</option>
+            <option>BBA</option>
+            <option>MBA</option>
+        </select>
+    </div>
+
+    <div>
+        12th Marks:
+        <input asp-for="Marks12th" />
+        <span asp-validation-for="Marks12th" style="color:red"></span>
+    </div>
+
+    <div>
+        Address:
+        <textarea asp-for="Address"></textarea>
+    </div>
+
+    <br />
+
+    <button type="submit">Submit Application</button>
+
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,52 @@
+﻿@model IEnumerable<WebApplication1.Models.Student>
+@{
+    var editStudent = ViewBag.EditStudent as WebApplication1.Models.Student;
+}
+
+<h2>Student CRUD - ADO.NET</h2>
+
+<!-- CREATE / EDIT FORM -->
+<form asp-action="Save">
+    <input type="hidden" name="Id" value="@editStudent?.Id" />
+
+    <label>Name</label>
+    <input type="text" name="Name" value="@editStudent?.Name" />
+    <span asp-validation-for="Name"></span>
+
+    <label>Marks</label>
+    <input type="number" name="Marks" value="@editStudent?.Marks" />
+    <span asp-validation-for="Marks"></span>
+
+    <button type="submit">
+        @(editStudent == null ? "Create" : "Update")
+    </button>
+</form>
+
+<hr />
+
+<!-- TABLE -->
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Marks</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Marks</td>
+            <td>
+                <a asp-action="Index" asp-route-editId="@item.Id">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

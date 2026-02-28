@@ -1,0 +1,33 @@
+﻿@model IEnumerable<CollegeApplicationForm.Models.AdmissionForm>
+
+<h2>All Admission Applications</h2>
+
+<a asp-action="Apply">New Application</a>
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Course</th>
+        <th>Marks</th>
+        <th>DOB</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.FullName</td>
+            <td>@item.Email</td>
+            <td>@item.Phone</td>
+            <td>@item.Course</td>
+            <td>@item.Marks12th</td>
+            <td>@item.DOB.ToShortDateString()</td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+
+</table>

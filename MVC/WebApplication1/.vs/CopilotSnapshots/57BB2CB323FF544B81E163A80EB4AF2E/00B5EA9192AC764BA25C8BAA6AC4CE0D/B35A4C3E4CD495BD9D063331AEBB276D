@@ -1,0 +1,10 @@
+﻿using System.Collections.Generic;
+
+namespace WebApplication1.Models
+{
+    public class StudentIndexViewModel
+    {
+        public IEnumerable<Student> Students { get; set; } = new List<Student>();
+        public Student EditStudent { get; set; } = new Student();
+    }
+}

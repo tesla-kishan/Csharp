@@ -1,0 +1,43 @@
+@model IEnumerable<WebApplication1.Models.Student>
+@{
+    ViewData["Title"] = "Students";
+}
+
+<div class="card">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h4>Students</h4>
+        <div>
+            <a class="btn btn-primary" asp-action="Create">New Student</a>
+            <a class="btn btn-outline-secondary" asp-controller="Enrollments" asp-action="Create">Enroll Student</a>
+        </div>
+    </div>
+    <div class="card-body">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Date of Birth</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Email</td>
+                        <td>@item.Phone</td>
+                        <td>@item.DateOfBirth.ToString("yyyy-MM-dd")</td>
+                        <td>
+                            <a class="btn btn-sm btn-info" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                            <a class="btn btn-sm btn-warning" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                            <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+@model WebApplication1.ViewModels.StudentDetailsViewModel
+@{
+    ViewData["Title"] = "Student Details";
+}
+
+<div class="card">
+    <div class="card-header d-flex justify-content-between">
+        <h4>@Model.Student.Name</h4>
+        <div>
+            <a class="btn btn-sm btn-warning" asp-action="Edit" asp-route-id="@Model.Student.Id">Edit</a>
+            <a class="btn btn-sm btn-secondary" asp-action="Index">Back</a>
+        </div>
+    </div>
+    <div class="card-body">
+        <p><strong>Email:</strong> @Model.Student.Email</p>
+        <p><strong>Phone:</strong> @Model.Student.Phone</p>
+        <p><strong>Date of Birth:</strong> @Model.Student.DateOfBirth.ToString("yyyy-MM-dd")</p>
+
+        <h5 class="mt-4">Enrollments</h5>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Enrollment Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var e in Model.Enrollments)
+                {
+                    <tr>
+                        <td>@e.Course?.Title</td>
+                        <td>@e.EnrollmentDate.ToString("yyyy-MM-dd")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

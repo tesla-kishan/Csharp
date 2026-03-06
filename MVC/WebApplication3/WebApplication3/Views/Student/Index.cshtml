@@ -1,0 +1,38 @@
+﻿@model IEnumerable<WebApplication3.Models.Student>
+
+<h2>Students List</h2>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>City</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Age</td>
+            <td>@item.City</td>
+        </tr>
+    }
+
+</table>
+
+<br />
+
+<div>
+    <a href="/Student/Index?page=1">1</a> |
+    <a href="/Student/Index?page=2">2</a> |
+    <a href="/Student/Index?page=3">3</a> |
+    <a href="/Student/Index?page=4">4</a> |
+    <a href="/Student/Index?page=5">5</a> |
+    <a href="/Student/Index?page=6">6</a> |
+    <a href="/Student/Index?page=7">7</a> |
+    <a href="/Student/Index?page=8">8</a> |
+    <a href="/Student/Index?page=9">9</a> |
+    <a href="/Student/Index?page=10">10</a>
+</div>

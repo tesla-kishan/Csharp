@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\.NET Backend\\C#\\FacadePattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{493ECEF4-C5CF-4238-8D09-F8B893B8E6A0}|FacadePattern\\FacadePattern.csproj|c:\\.net backend\\c#\\facadepattern\\facadepattern\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{493ECEF4-C5CF-4238-8D09-F8B893B8E6A0}|FacadePattern\\FacadePattern.csproj|solutionrelative:facadepattern\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{493ECEF4-C5CF-4238-8D09-F8B893B8E6A0}|FacadePattern\\FacadePattern.csproj|c:\\.net backend\\c#\\facadepattern\\facadepattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{493ECEF4-C5CF-4238-8D09-F8B893B8E6A0}|FacadePattern\\FacadePattern.csproj|solutionrelative:facadepattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{493ECEF4-C5CF-4238-8D09-F8B893B8E6A0}|FacadePattern\\FacadePattern.csproj|c:\\.net backend\\c#\\facadepattern\\facadepattern\\coneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{493ECEF4-C5CF-4238-8D09-F8B893B8E6A0}|FacadePattern\\FacadePattern.csproj|solutionrelative:facadepattern\\coneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{493ECEF4-C5CF-4238-8D09-F8B893B8E6A0}|FacadePattern\\FacadePattern.csproj|c:\\.net backend\\c#\\facadepattern\\facadepattern\\icecreamfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{493ECEF4-C5CF-4238-8D09-F8B893B8E6A0}|FacadePattern\\FacadePattern.csproj|solutionrelative:facadepattern\\icecreamfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{493ECEF4-C5CF-4238-8D09-F8B893B8E6A0}|FacadePattern\\FacadePattern.csproj|c:\\.net backend\\c#\\facadepattern\\facadepattern\\flavorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{493ECEF4-C5CF-4238-8D09-F8B893B8E6A0}|FacadePattern\\FacadePattern.csproj|solutionrelative:facadepattern\\flavorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IceCreamFacade.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\C#\\FacadePattern\\FacadePattern\\IceCreamFacade.cs",
+              "RelativeDocumentMoniker": "FacadePattern\\IceCreamFacade.cs",
+              "ToolTip": "C:\\.NET Backend\\C#\\FacadePattern\\FacadePattern\\IceCreamFacade.cs",
+              "RelativeToolTip": "FacadePattern\\IceCreamFacade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T06:37:54.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\C#\\FacadePattern\\FacadePattern\\PaymentService.cs",
+              "RelativeDocumentMoniker": "FacadePattern\\PaymentService.cs",
+              "ToolTip": "C:\\.NET Backend\\C#\\FacadePattern\\FacadePattern\\PaymentService.cs",
+              "RelativeToolTip": "FacadePattern\\PaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T06:37:42.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConeService.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\C#\\FacadePattern\\FacadePattern\\ConeService.cs",
+              "RelativeDocumentMoniker": "FacadePattern\\ConeService.cs",
+              "ToolTip": "C:\\.NET Backend\\C#\\FacadePattern\\FacadePattern\\ConeService.cs*",
+              "RelativeToolTip": "FacadePattern\\ConeService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T06:37:28.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FlavorService.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\C#\\FacadePattern\\FacadePattern\\FlavorService.cs",
+              "RelativeDocumentMoniker": "FacadePattern\\FlavorService.cs",
+              "ToolTip": "C:\\.NET Backend\\C#\\FacadePattern\\FacadePattern\\FlavorService.cs",
+              "RelativeToolTip": "FacadePattern\\FlavorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T06:37:16.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\C#\\FacadePattern\\FacadePattern\\Program.cs",
+              "RelativeDocumentMoniker": "FacadePattern\\Program.cs",
+              "ToolTip": "C:\\.NET Backend\\C#\\FacadePattern\\FacadePattern\\Program.cs",
+              "RelativeToolTip": "FacadePattern\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T06:36:07.404Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

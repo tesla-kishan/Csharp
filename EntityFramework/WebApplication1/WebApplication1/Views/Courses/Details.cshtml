@@ -1,0 +1,37 @@
+@model WebApplication1.Models.Course
+@{
+    ViewData["Title"] = "Course Details";
+}
+
+<div class="card">
+    <div class="card-header d-flex justify-content-between">
+        <h4>@Model.Title</h4>
+        <div>
+            <a class="btn btn-sm btn-warning" asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+            <a class="btn btn-sm btn-secondary" asp-action="Index">Back</a>
+        </div>
+    </div>
+    <div class="card-body">
+        <p><strong>Description:</strong> @Model.Description</p>
+        <p><strong>Credits:</strong> @Model.Credits</p>
+
+        <h5 class="mt-4">Enrolled Students</h5>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Student</th>
+                    <th>Enrollment Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var e in Model.Enrollments)
+                {
+                    <tr>
+                        <td>@e.Student?.Name</td>
+                        <td>@e.EnrollmentDate.ToString("yyyy-MM-dd")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

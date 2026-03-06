@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\.NET Backend\\C#\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\.net backend\\c#\\consoleapp1\\consoleapp1\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\.net backend\\c#\\consoleapp1\\consoleapp1\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7FD9D7D-152D-8A5E-6DF5-A6A5ADFB3B68}|EmployeeApp.Tests\\EmployeeApp.Tests.csproj|c:\\.net backend\\c#\\consoleapp1\\employeeapp.tests\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7FD9D7D-152D-8A5E-6DF5-A6A5ADFB3B68}|EmployeeApp.Tests\\EmployeeApp.Tests.csproj|solutionrelative:employeeapp.tests\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7FD9D7D-152D-8A5E-6DF5-A6A5ADFB3B68}|EmployeeApp.Tests\\EmployeeApp.Tests.csproj|c:\\.net backend\\c#\\consoleapp1\\employeeapp.tests\\employeeapp.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F7FD9D7D-152D-8A5E-6DF5-A6A5ADFB3B68}|EmployeeApp.Tests\\EmployeeApp.Tests.csproj|solutionrelative:employeeapp.tests\\employeeapp.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\.net backend\\c#\\consoleapp1\\consoleapp1\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\.net backend\\c#\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\.net backend\\c#\\consoleapp1\\consoleapp1\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeApp.Tests.csproj",
+              "DocumentMoniker": "C:\\.NET Backend\\C#\\ConsoleApp1\\EmployeeApp.Tests\\EmployeeApp.Tests.csproj",
+              "RelativeDocumentMoniker": "EmployeeApp.Tests\\EmployeeApp.Tests.csproj",
+              "ToolTip": "C:\\.NET Backend\\C#\\ConsoleApp1\\EmployeeApp.Tests\\EmployeeApp.Tests.csproj",
+              "RelativeToolTip": "EmployeeApp.Tests\\EmployeeApp.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-05T07:31:06.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\C#\\ConsoleApp1\\ConsoleApp1\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\.NET Backend\\C#\\ConsoleApp1\\ConsoleApp1\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "ConsoleApp1\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T07:19:54.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\C#\\ConsoleApp1\\EmployeeApp.Tests\\Class1.cs",
+              "RelativeDocumentMoniker": "EmployeeApp.Tests\\Class1.cs",
+              "ToolTip": "C:\\.NET Backend\\C#\\ConsoleApp1\\EmployeeApp.Tests\\Class1.cs",
+              "RelativeToolTip": "EmployeeApp.Tests\\Class1.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwCwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T07:16:20.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\C#\\ConsoleApp1\\ConsoleApp1\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\.NET Backend\\C#\\ConsoleApp1\\ConsoleApp1\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "ConsoleApp1\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T07:13:43.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\C#\\ConsoleApp1\\ConsoleApp1\\Repositories\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Repositories\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\.NET Backend\\C#\\ConsoleApp1\\ConsoleApp1\\Repositories\\IEmployeeRepository.cs",
+              "RelativeToolTip": "ConsoleApp1\\Repositories\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T07:13:31.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\C#\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\.NET Backend\\C#\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T07:10:28.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\C#\\ConsoleApp1\\ConsoleApp1\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Models\\Employee.cs",
+              "ToolTip": "C:\\.NET Backend\\C#\\ConsoleApp1\\ConsoleApp1\\Models\\Employee.cs",
+              "RelativeToolTip": "ConsoleApp1\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T07:13:20.692Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

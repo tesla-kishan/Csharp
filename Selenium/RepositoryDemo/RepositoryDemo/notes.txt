@@ -1,0 +1,2 @@
+Repository Pattern is used to separate data access logic from business logic by introducing a repository layer between the controller and the database.
+

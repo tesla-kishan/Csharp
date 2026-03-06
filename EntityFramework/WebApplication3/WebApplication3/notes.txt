@@ -1,0 +1,70 @@
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+Build → Clean Solution
+Build → Rebuild Solution
+
+Tools → NuGet Package Manager → Package Manager Console
+Default project:
+
+
+Add-Migration m1
+Update-Database
+
+
+Data/
+   ApplicationDbContext.cs
+
+   using Microsoft.EntityFrameworkCore;
+using WebApplication3.Models;
+
+namespace WebApplication3.Data
+{
+    public class ApplicationDbContext : DbContext
+    {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
+        {
+        }
+
+        public DbSet<Student> Students { get; set; }
+    }
+}
+
+
+inside models
+Student.cs
+
+namespace WebApplication3.Models
+{
+    public class Student
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+    }
+}
+
+
+configure program.cs
+using Microsoft.EntityFrameworkCore;
+using WebApplication3.Data;
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection")));
+
+build
+Add-Migration m1
+Update-Database
+
+
+
+🔹 Create Student
+https://localhost:7275/Students/Create?name=KL&age=22&city=Delhi
+
+🔹 See All Students
+https://localhost:7275/Students/All
+
+Get Student By ID
+https://localhost:7275/Students/Details/1

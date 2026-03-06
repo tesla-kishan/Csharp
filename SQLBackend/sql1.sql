@@ -97,3 +97,8 @@ CREATE INDEX IX_Enrollments_StudentId ON Enrollments(StudentId);
 CREATE INDEX IX_Enrollments_CourseId ON Enrollments(CourseId);
 GO
 
+select * from students;
+
+create database cgclass;
+use cgclass;
+select * from students;

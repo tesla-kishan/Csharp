@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\.NET Backend\\MVC\\MVCListRepo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|c:\\.net backend\\mvc\\mvclistrepo\\mvclistrepo\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|c:\\.net backend\\mvc\\mvclistrepo\\mvclistrepo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|c:\\.net backend\\mvc\\mvclistrepo\\mvclistrepo\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|c:\\.net backend\\mvc\\mvclistrepo\\mvclistrepo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|c:\\.net backend\\mvc\\mvclistrepo\\mvclistrepo\\migrations\\20260307052121_sqlrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\migrations\\20260307052121_sqlrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|c:\\.net backend\\mvc\\mvclistrepo\\mvclistrepo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|c:\\.net backend\\mvc\\mvclistrepo\\mvclistrepo\\repositories\\sqlstudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\repositories\\sqlstudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|c:\\.net backend\\mvc\\mvclistrepo\\mvclistrepo\\mvclistrepo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\mvclistrepo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|c:\\.net backend\\mvc\\mvclistrepo\\mvclistrepo\\notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|c:\\.net backend\\mvc\\mvclistrepo\\mvclistrepo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|c:\\.net backend\\mvc\\mvclistrepo\\mvclistrepo\\repositories\\liststudentrepository.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\repositories\\liststudentrepository.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|c:\\.net backend\\mvc\\mvclistrepo\\mvclistrepo\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|c:\\.net backend\\mvc\\mvclistrepo\\mvclistrepo\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F011C207-57D9-4F43-9B41-702C3FA964F8}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Data\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "MVCListRepo\\Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T05:32:42.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "MVCListRepo\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T05:25:08.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20260307052121_SQLRepo.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Migrations\\20260307052121_SQLRepo.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Migrations\\20260307052121_SQLRepo.cs",
+              "ToolTip": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Migrations\\20260307052121_SQLRepo.cs",
+              "RelativeToolTip": "MVCListRepo\\Migrations\\20260307052121_SQLRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T05:21:22.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Program.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Program.cs",
+              "ToolTip": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Program.cs",
+              "RelativeToolTip": "MVCListRepo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:37:00.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\appsettings.json",
+              "RelativeDocumentMoniker": "MVCListRepo\\appsettings.json",
+              "ToolTip": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\appsettings.json",
+              "RelativeToolTip": "MVCListRepo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-07T04:35:53.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "MVCListRepo\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:57:05.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SQLStudentRepository.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Repositories\\SQLStudentRepository.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Repositories\\SQLStudentRepository.cs",
+              "ToolTip": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Repositories\\SQLStudentRepository.cs",
+              "RelativeToolTip": "MVCListRepo\\Repositories\\SQLStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:31:39.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MVCListRepo",
+              "DocumentMoniker": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\MVCListRepo.csproj",
+              "RelativeDocumentMoniker": "MVCListRepo\\MVCListRepo.csproj",
+              "ToolTip": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\MVCListRepo.csproj",
+              "RelativeToolTip": "MVCListRepo\\MVCListRepo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-07T04:56:21.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "notes.txt",
+              "DocumentMoniker": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\notes.txt",
+              "RelativeDocumentMoniker": "MVCListRepo\\notes.txt",
+              "ToolTip": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\notes.txt",
+              "RelativeToolTip": "MVCListRepo\\notes.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-07T04:52:51.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "MVCListRepo\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:35:40.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Models\\Student.cs",
+              "ToolTip": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Models\\Student.cs",
+              "RelativeToolTip": "MVCListRepo\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:36:22.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Repositories\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Repositories\\IStudentRepository.cs",
+              "ToolTip": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Repositories\\IStudentRepository.cs",
+              "RelativeToolTip": "MVCListRepo\\Repositories\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:31:01.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ListStudentRepository.cs.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Repositories\\ListStudentRepository.cs.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Repositories\\ListStudentRepository.cs.cs",
+              "ToolTip": "C:\\.NET Backend\\MVC\\MVCListRepo\\MVCListRepo\\Repositories\\ListStudentRepository.cs.cs",
+              "RelativeToolTip": "MVCListRepo\\Repositories\\ListStudentRepository.cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:31:15.183Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

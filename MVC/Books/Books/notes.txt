@@ -1,0 +1,10 @@
+https://localhost:7280/Book/BookByName?name=Java
+https://localhost:7280/book/allbooks
+https://localhost:7280/Book/BookByName?name=Java
+
+
+
+
+https://localhost:7280/book/allbooks
+https://localhost:7280/book/GetBooksAbovePrice?price=500
+https://localhost:7280/book/GetBookByName?name=Java

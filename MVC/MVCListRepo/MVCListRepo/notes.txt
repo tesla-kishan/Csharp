@@ -1,0 +1,6 @@
+https://localhost:xxxx/students/all
+
+
+https://localhost:xxxx/Student/Add
+
+

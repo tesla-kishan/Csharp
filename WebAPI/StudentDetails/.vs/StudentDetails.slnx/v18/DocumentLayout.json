@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\.NET Backend\\WebAPI\\StudentDetails\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D788F6B-45B5-4BE2-89A9-DC2A09F900C2}|StudentDetails\\StudentDetails.csproj|c:\\.net backend\\webapi\\studentdetails\\studentdetails\\dto\\updaterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D788F6B-45B5-4BE2-89A9-DC2A09F900C2}|StudentDetails\\StudentDetails.csproj|solutionrelative:studentdetails\\dto\\updaterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D788F6B-45B5-4BE2-89A9-DC2A09F900C2}|StudentDetails\\StudentDetails.csproj|c:\\.net backend\\webapi\\studentdetails\\studentdetails\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D788F6B-45B5-4BE2-89A9-DC2A09F900C2}|StudentDetails\\StudentDetails.csproj|solutionrelative:studentdetails\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D788F6B-45B5-4BE2-89A9-DC2A09F900C2}|StudentDetails\\StudentDetails.csproj|c:\\.net backend\\webapi\\studentdetails\\studentdetails\\dto\\responserequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D788F6B-45B5-4BE2-89A9-DC2A09F900C2}|StudentDetails\\StudentDetails.csproj|solutionrelative:studentdetails\\dto\\responserequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D788F6B-45B5-4BE2-89A9-DC2A09F900C2}|StudentDetails\\StudentDetails.csproj|c:\\.net backend\\webapi\\studentdetails\\studentdetails\\dto\\createrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D788F6B-45B5-4BE2-89A9-DC2A09F900C2}|StudentDetails\\StudentDetails.csproj|solutionrelative:studentdetails\\dto\\createrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D788F6B-45B5-4BE2-89A9-DC2A09F900C2}|StudentDetails\\StudentDetails.csproj|c:\\.net backend\\webapi\\studentdetails\\studentdetails\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D788F6B-45B5-4BE2-89A9-DC2A09F900C2}|StudentDetails\\StudentDetails.csproj|solutionrelative:studentdetails\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D788F6B-45B5-4BE2-89A9-DC2A09F900C2}|StudentDetails\\StudentDetails.csproj|c:\\.net backend\\webapi\\studentdetails\\studentdetails\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D788F6B-45B5-4BE2-89A9-DC2A09F900C2}|StudentDetails\\StudentDetails.csproj|solutionrelative:studentdetails\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\WebAPI\\StudentDetails\\StudentDetails\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "StudentDetails\\Models\\Student.cs",
+              "ToolTip": "C:\\.NET Backend\\WebAPI\\StudentDetails\\StudentDetails\\Models\\Student.cs",
+              "RelativeToolTip": "StudentDetails\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T06:20:56.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResponseRequestDTO.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\WebAPI\\StudentDetails\\StudentDetails\\DTO\\ResponseRequestDTO.cs",
+              "RelativeDocumentMoniker": "StudentDetails\\DTO\\ResponseRequestDTO.cs",
+              "ToolTip": "C:\\.NET Backend\\WebAPI\\StudentDetails\\StudentDetails\\DTO\\ResponseRequestDTO.cs",
+              "RelativeToolTip": "StudentDetails\\DTO\\ResponseRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T06:20:27.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\WebAPI\\StudentDetails\\StudentDetails\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "StudentDetails\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\.NET Backend\\WebAPI\\StudentDetails\\StudentDetails\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "StudentDetails\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwB8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T06:20:09.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateRequestDTO.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\WebAPI\\StudentDetails\\StudentDetails\\DTO\\UpdateRequestDTO.cs",
+              "RelativeDocumentMoniker": "StudentDetails\\DTO\\UpdateRequestDTO.cs",
+              "ToolTip": "C:\\.NET Backend\\WebAPI\\StudentDetails\\StudentDetails\\DTO\\UpdateRequestDTO.cs",
+              "RelativeToolTip": "StudentDetails\\DTO\\UpdateRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T06:19:43.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateRequestDTO.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\WebAPI\\StudentDetails\\StudentDetails\\DTO\\CreateRequestDTO.cs",
+              "RelativeDocumentMoniker": "StudentDetails\\DTO\\CreateRequestDTO.cs",
+              "ToolTip": "C:\\.NET Backend\\WebAPI\\StudentDetails\\StudentDetails\\DTO\\CreateRequestDTO.cs",
+              "RelativeToolTip": "StudentDetails\\DTO\\CreateRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T06:19:25.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\WebAPI\\StudentDetails\\StudentDetails\\Program.cs",
+              "RelativeDocumentMoniker": "StudentDetails\\Program.cs",
+              "ToolTip": "C:\\.NET Backend\\WebAPI\\StudentDetails\\StudentDetails\\Program.cs",
+              "RelativeToolTip": "StudentDetails\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T06:16:09.679Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

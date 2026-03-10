@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CEE4AD-1E90-43E7-AEA0-2BD48A6B95F7}|OneToOneEFMVC\\OneToOneEFMVC.csproj|c:\\.net backend\\mvc\\onetooneefmvc\\onetooneefmvc\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CEE4AD-1E90-43E7-AEA0-2BD48A6B95F7}|OneToOneEFMVC\\OneToOneEFMVC.csproj|solutionrelative:onetooneefmvc\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Migrations\\20260307095317_AddAgeToStudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OneToOneEFMVC\\Migrations\\20260307095317_AddAgeToStudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{B4CEE4AD-1E90-43E7-AEA0-2BD48A6B95F7}|OneToOneEFMVC\\OneToOneEFMVC.csproj|solutionrelative:onetooneefmvc\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CEE4AD-1E90-43E7-AEA0-2BD48A6B95F7}|OneToOneEFMVC\\OneToOneEFMVC.csproj|c:\\.net backend\\mvc\\onetooneefmvc\\onetooneefmvc\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CEE4AD-1E90-43E7-AEA0-2BD48A6B95F7}|OneToOneEFMVC\\OneToOneEFMVC.csproj|solutionrelative:onetooneefmvc\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4CEE4AD-1E90-43E7-AEA0-2BD48A6B95F7}|OneToOneEFMVC\\OneToOneEFMVC.csproj|c:\\.net backend\\mvc\\onetooneefmvc\\onetooneefmvc\\models\\hostelroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CEE4AD-1E90-43E7-AEA0-2BD48A6B95F7}|OneToOneEFMVC\\OneToOneEFMVC.csproj|solutionrelative:onetooneefmvc\\models\\hostelroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -86,24 +86,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "20260307095317_AddAgeToStudent.cs",
               "DocumentMoniker": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Migrations\\20260307095317_AddAgeToStudent.cs",
               "RelativeDocumentMoniker": "OneToOneEFMVC\\Migrations\\20260307095317_AddAgeToStudent.cs",
               "ToolTip": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Migrations\\20260307095317_AddAgeToStudent.cs",
               "RelativeToolTip": "OneToOneEFMVC\\Migrations\\20260307095317_AddAgeToStudent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T09:53:18.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Views\\Students\\Index.cshtml",
               "RelativeDocumentMoniker": "OneToOneEFMVC\\Views\\Students\\Index.cshtml",
@@ -116,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Views\\Students\\Edit.cshtml",
               "RelativeDocumentMoniker": "OneToOneEFMVC\\Views\\Students\\Edit.cshtml",
@@ -129,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Views\\Students\\Details.cshtml",
               "RelativeDocumentMoniker": "OneToOneEFMVC\\Views\\Students\\Details.cshtml",
@@ -142,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Views\\Students\\Delete.cshtml",
               "RelativeDocumentMoniker": "OneToOneEFMVC\\Views\\Students\\Delete.cshtml",
@@ -155,7 +155,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "OneToOneEFMVC\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "OneToOneEFMVC\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T09:29:08.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Views\\Students\\Create.cshtml",
               "RelativeDocumentMoniker": "OneToOneEFMVC\\Views\\Students\\Create.cshtml",
@@ -168,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "OneToOneEFMVC\\Views\\_ViewImports.cshtml",
@@ -181,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Models\\Student.cs",
               "RelativeDocumentMoniker": "OneToOneEFMVC\\Models\\Student.cs",
@@ -194,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Views\\Student\\Create.cshtml",
               "RelativeDocumentMoniker": "OneToOneEFMVC\\Views\\Student\\Create.cshtml",
@@ -207,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Views\\Student\\Index.cshtml",
               "RelativeDocumentMoniker": "OneToOneEFMVC\\Views\\Student\\Index.cshtml",
@@ -220,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "StudentService.cs",
               "DocumentMoniker": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Services\\StudentService.cs",
               "RelativeDocumentMoniker": "OneToOneEFMVC\\Services\\StudentService.cs",
@@ -233,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "StudentManagementContext.cs",
               "DocumentMoniker": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Data\\StudentManagementContext.cs",
               "RelativeDocumentMoniker": "OneToOneEFMVC\\Data\\StudentManagementContext.cs",
@@ -242,19 +255,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T09:34:01.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "OneToOneEFMVC\\Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\.NET Backend\\MVC\\OneToOneEFMVC\\OneToOneEFMVC\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "OneToOneEFMVC\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T09:29:08.992Z",
               "EditorCaption": ""
             },
             {

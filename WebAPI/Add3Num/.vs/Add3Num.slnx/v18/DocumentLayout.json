@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\.NET Backend\\WebAPI\\Add3Num\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3AAD68D-724D-4DCE-9321-172708775A81}|Add3Num\\Add3Num.csproj|c:\\.net backend\\webapi\\add3num\\add3num\\controllers\\sum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3AAD68D-724D-4DCE-9321-172708775A81}|Add3Num\\Add3Num.csproj|solutionrelative:add3num\\controllers\\sum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sum.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\WebAPI\\Add3Num\\Add3Num\\Controllers\\Sum.cs",
+              "RelativeDocumentMoniker": "Add3Num\\Controllers\\Sum.cs",
+              "ToolTip": "C:\\.NET Backend\\WebAPI\\Add3Num\\Add3Num\\Controllers\\Sum.cs",
+              "RelativeToolTip": "Add3Num\\Controllers\\Sum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T07:02:07.066Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

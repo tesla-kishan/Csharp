@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\.NET Backend\\WebAPI\\AddNum\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB82C75-06D5-4E9B-862C-533D2081EE68}|AddNum\\AddNum.csproj|c:\\.net backend\\webapi\\addnum\\addnum\\controllers\\additioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB82C75-06D5-4E9B-862C-533D2081EE68}|AddNum\\AddNum.csproj|solutionrelative:addnum\\controllers\\additioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB82C75-06D5-4E9B-862C-533D2081EE68}|AddNum\\AddNum.csproj|c:\\.net backend\\webapi\\addnum\\addnum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB82C75-06D5-4E9B-862C-533D2081EE68}|AddNum\\AddNum.csproj|solutionrelative:addnum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB82C75-06D5-4E9B-862C-533D2081EE68}|AddNum\\AddNum.csproj|c:\\.net backend\\webapi\\addnum\\addnum\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB82C75-06D5-4E9B-862C-533D2081EE68}|AddNum\\AddNum.csproj|solutionrelative:addnum\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdditionController.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\WebAPI\\AddNum\\AddNum\\Controllers\\AdditionController.cs",
+              "RelativeDocumentMoniker": "AddNum\\Controllers\\AdditionController.cs",
+              "ToolTip": "C:\\.NET Backend\\WebAPI\\AddNum\\AddNum\\Controllers\\AdditionController.cs",
+              "RelativeToolTip": "AddNum\\Controllers\\AdditionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T04:34:37.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\WebAPI\\AddNum\\AddNum\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "AddNum\\WeatherForecast.cs",
+              "ToolTip": "C:\\.NET Backend\\WebAPI\\AddNum\\AddNum\\WeatherForecast.cs",
+              "RelativeToolTip": "AddNum\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T04:32:57.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\WebAPI\\AddNum\\AddNum\\Program.cs",
+              "RelativeDocumentMoniker": "AddNum\\Program.cs",
+              "ToolTip": "C:\\.NET Backend\\WebAPI\\AddNum\\AddNum\\Program.cs",
+              "RelativeToolTip": "AddNum\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T04:32:54.252Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

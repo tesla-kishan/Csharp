@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\.NET Backend\\WebAPI\\SimpleWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A90EDF40-89D3-4C72-AFE3-72C7D1BF9F3A}|SimpleWebAPI\\SimpleWebAPI.csproj|c:\\.net backend\\webapi\\simplewebapi\\simplewebapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90EDF40-89D3-4C72-AFE3-72C7D1BF9F3A}|SimpleWebAPI\\SimpleWebAPI.csproj|solutionrelative:simplewebapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90EDF40-89D3-4C72-AFE3-72C7D1BF9F3A}|SimpleWebAPI\\SimpleWebAPI.csproj|c:\\.net backend\\webapi\\simplewebapi\\simplewebapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A90EDF40-89D3-4C72-AFE3-72C7D1BF9F3A}|SimpleWebAPI\\SimpleWebAPI.csproj|solutionrelative:simplewebapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\WebAPI\\SimpleWebAPI\\SimpleWebAPI\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "SimpleWebAPI\\Models\\Student.cs",
+              "ToolTip": "C:\\.NET Backend\\WebAPI\\SimpleWebAPI\\SimpleWebAPI\\Models\\Student.cs",
+              "RelativeToolTip": "SimpleWebAPI\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T06:47:20.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\.NET Backend\\WebAPI\\SimpleWebAPI\\SimpleWebAPI\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "SimpleWebAPI\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\.NET Backend\\WebAPI\\SimpleWebAPI\\SimpleWebAPI\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "SimpleWebAPI\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T06:46:54.194Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

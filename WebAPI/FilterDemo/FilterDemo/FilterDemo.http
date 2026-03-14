@@ -1,0 +1,6 @@
+@FilterDemo_HostAddress = http://localhost:5041
+
+GET {{FilterDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,41 @@
+in postman
+
+1️⃣ Get All Employees
+GET
+https://localhost:7239/api/employee/get
+
+2️⃣ Add Employee
+POST
+https://localhost:7239/api/employee/add
+
+Body (raw, JSON):
+
+{
+"id":6,
+"name":"Rahul",
+"age":29,
+"salary":65000
+}
+
+
+
+3️⃣ Employee Details
+POST
+https://localhost:7239/api/employee/details
+
+Body
+3
+
+4️⃣ Total Salary
+GET
+https://localhost:7239/api/employee/totalsalary
+
+
+
+[Route("api/[controller]")]
+
+[HttpGet("get")]
+[HttpPost("add")]
+[HttpPost("details")]
+[HttpGet("totalsalary")]
+

@@ -1,0 +1,18 @@
+Sync version
+
+GET
+https://localhost:xxxx/api/file/read-sync
+
+
+Async version
+GET
+https://localhost:xxxx/api/file/read-async
+
+
+Sync version:
+Reads file1 first then file2
+
+Async version:
+Reads both files at the same time
+
+

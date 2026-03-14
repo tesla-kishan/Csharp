@@ -1,12 +1,19 @@
-# Mac system files
-.DS_Store
+# Visual Studio
+.vs/
 
-# .NET build folders
+# Build folders
 bin/
 obj/
 
-# User-specific files
+# User files
 *.user
 *.suo
-*.pdb
-*.dll
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

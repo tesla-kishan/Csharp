@@ -1,0 +1,14 @@
+https://localhost:7069/api/student/add
+
+
+
+post body json
+
+
+{
+  "id": 1,
+  "name": "Kishan",
+  "marks": 90
+}
+
+

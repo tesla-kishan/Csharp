@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\.NET Backend\\WebAPI\\Add3Num\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3AAD68D-724D-4DCE-9321-172708775A81}|Add3Num\\Add3Num.csproj|c:\\.net backend\\webapi\\add3num\\add3num\\controllers\\sum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3AAD68D-724D-4DCE-9321-172708775A81}|Add3Num\\Add3Num.csproj|solutionrelative:add3num\\controllers\\sum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{932E0223-E296-16B7-B24B-68AE912E897A}|Add3Num\\Add3Num.csproj|c:\\.net backend\\webapi\\add3num\\add3num\\controllers\\sum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{932E0223-E296-16B7-B24B-68AE912E897A}|Add3Num\\Add3Num.csproj|solutionrelative:add3num\\controllers\\sum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,12 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +24,7 @@
               "RelativeDocumentMoniker": "Add3Num\\Controllers\\Sum.cs",
               "ToolTip": "C:\\.NET Backend\\WebAPI\\Add3Num\\Add3Num\\Controllers\\Sum.cs",
               "RelativeToolTip": "Add3Num\\Controllers\\Sum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T07:02:07.066Z",
               "EditorCaption": ""

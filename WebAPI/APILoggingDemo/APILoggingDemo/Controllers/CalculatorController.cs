@@ -12,7 +12,7 @@ public class CalculatorController : ControllerBase
     }
 
     [HttpGet("add")]
-    public IActionResult Add(int a, int b)
+    public IActionResult Add(int a, int b)cm
     {
         _logger.LogInformation("Add method called with {A} and {B}", a, b);
 

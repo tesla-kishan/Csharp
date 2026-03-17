@@ -1,0 +1,6 @@
+@CORsquareService_HostAddress = http://localhost:5087
+
+GET {{CORsquareService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="AuthService/AuthService.csproj" />
+  <Project Path="OrderService/OrderService.csproj" Id="4d333593-3c39-47ae-84de-a006a5ae2a48" />
+  <Project Path="PaymentService/PaymentService.csproj" Id="e4a177fc-0bc2-4434-864d-72d1f6860108" />
+</Solution>

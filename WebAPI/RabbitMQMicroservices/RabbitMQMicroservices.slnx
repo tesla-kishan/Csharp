@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../CORsquareService/CORsquareService/CORsquareService.csproj" />
+  <Project Path="../CubeService/CubeService/CubeService.csproj" />
+  <Project Path="../RabbitMQDemo/RabbitMQDemo/RabbitMQDemo.csproj" />
+</Solution>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 onclick="fillList1()">Fruits Method 1</h3>
+    <h3 onclick="fillList2()">Fruits Method 2</h3>
+    <ol id = "fruits"></ol>
+    <script>
+        var fruits = ["Apple", "Banana", "grapes", "oranges"]
+        function fillList1(){
+            var el = document.getElementById("fruits");
+            var str = "";
+            for(var fr of fruits){
+                str += "<li>" + fr + "</li>";
+            }
+            el.innerHTML = str;
+        }
+
+        function fillList2(){
+            var el = document.getElementById("fruits");
+            for(var fr of fruits){
+                let li = document.createElement("li");
+                li.innerText = fr;
+                el.appendChild(li);
+            }
+        }
+    </script>
+</body>
+</html>

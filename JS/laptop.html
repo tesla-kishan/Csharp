@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaptopData</title>
+</head>
+<body>
+    <h1> Laptop Data</h1>
+    <table border="3" id="laptopTable">
+        <tr>
+            <th>S.No</th>
+            <th>Company</th>
+            <th>Model Name</th>
+            <th>Price</th>
+            <th>Tick</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>HP</td>
+            <td>Pavilion</td>
+            <td>65000Rs</td>
+            <td><input type="checkbox"></td>
+        </tr>
+
+    </table>
+    <br>
+    <button onclick="ShowSelected()">Show Selected  </button> 
+    <button onclick="ShowAll()">Show All  </button>
+
+    <br></br>
+
+    <form onsubmit="addData(event)">
+        <label for="S.No">S.No:</label>
+        <input type="text" id="S.No" name="S.No"><br><br>
+        <label for="Company">Company:</label>
+        <input type="text" id="Company" name="Company"><br><br>
+        <label for="Model Name">Model Name:</label>
+        <input type="text" id="Model Name" name="Model Name"><br><br>
+        <label for="Price">Price:</label>
+        <input type="text" id="Price" name="Price"><br><br>
+        <input type="Submit" value="Add">
+        <input type="Reset" value="Reset">
+    </form>
+    <script>
+        function addData(event){
+            event.preventDefault();
+            var sNo=document.getElementById("S.No").value;
+            var company=document.getElementById("Company").value;
+            var modelName=document.getElementById("Model Name").value;
+            var price=document.getElementById("Price").value;
+            var table=document.getElementById("laptopTable");
+            var Row=table.insertRow();
+            Row.insertCell(0).textContent=sNo;
+            Row.insertCell(1).textContent=company;
+            Row.insertCell(2).textContent=modelName;
+            Row.insertCell(3).textContent=price;
+            Row.insertCell(4).innerHTML='<input type="checkbox">';
+        }
+
+        function ShowSelected(){
+            var table=document.getElementById("laptopTable");
+            for(var i=1;i<table.rows.length;i++){
+                var checkbox=table.rows[i].cells[4].children[0];
+                if(checkbox.checked){
+                    table.rows[i].style.display="";
+                }
+                else{
+                    table.rows[i].style.display="none";
+                }
+            }
+        }
+
+        function ShowAll(){
+            var table=document.getElementById("laptopTable");
+            for(var i=1;i<table.rows.length;i++){
+                table.rows[i].style.display="";
+            }
+        }
+        
+
+    </script>
+</body>
+</html>

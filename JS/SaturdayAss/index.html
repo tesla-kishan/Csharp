@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Index - Simple Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #eef0f5;
+      --card: #ffffff;
+      --text: #1a1d23;
+      --muted: #7a7f8e;
+      --border: #e2e5ec;
+      --input-bg: #f7f8fb;
+      --add: #2ecc71;
+      --sub: #3498db;
+      --mul: #f39c12;
+      --div: #e74c3c;
+      --result-bg: #f3f4f8;
+      --result-text: #1a1d23;
+      --shadow: 0 8px 40px rgba(0,0,0,0.10);
+      --radius: 16px;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 44px 40px 36px;
+      width: 100%;
+      max-width: 480px;
+      animation: fadeUp 0.5s cubic-bezier(.22,1,.36,1) both;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: var(--text);
+      text-align: center;
+      letter-spacing: -0.5px;
+    }
+
+    .trainer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.875rem;
+      margin-top: 4px;
+      margin-bottom: 32px;
+    }
+
+    .field {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      font-weight: 600;
+      font-size: 0.875rem;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    input[type="number"] {
+      width: 100%;
+      padding: 13px 16px;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      background: var(--input-bg);
+      font-family: 'DM Mono', monospace;
+      font-size: 1rem;
+      color: var(--text);
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    input[type="number"]:focus {
+      border-color: #3498db;
+      box-shadow: 0 0 0 3px rgba(52,152,219,0.13);
+    }
+
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button { -webkit-appearance: none; }
+
+    .btn-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .btn {
+      padding: 14px;
+      border: none;
+      border-radius: 12px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #fff;
+      cursor: pointer;
+      transition: transform 0.13s, box-shadow 0.13s, filter 0.13s;
+      letter-spacing: 0.2px;
+    }
+
+    .btn:hover  { filter: brightness(1.08); transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,0.13); }
+    .btn:active { transform: translateY(0);  box-shadow: none; filter: brightness(0.96); }
+
+    .btn-add { background: var(--add); }
+    .btn-sub { background: var(--sub); }
+    .btn-mul { background: var(--mul); }
+    .btn-div { background: var(--div); }
+
+    .result-box {
+      margin-top: 28px;
+      background: var(--result-bg);
+      border-radius: 12px;
+      padding: 20px 24px;
+      text-align: center;
+      min-height: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.25s;
+    }
+
+    .result-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 6px;
+    }
+
+    .result-value {
+      font-family: 'DM Mono', monospace;
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: var(--result-text);
+      transition: color 0.3s;
+    }
+
+    .result-value.error { color: var(--div); }
+
+    .result-box.pop {
+      animation: pop 0.3s cubic-bezier(.22,1,.36,1);
+    }
+
+    @keyframes pop {
+      0%   { transform: scale(0.97); }
+      60%  { transform: scale(1.02); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Index - Simple Calculator</h1>
+    <p class="trainer">Trainer Name: Mohd Salman</p>
+
+    <div class="field">
+      <label for="num1">First Number (Integer)</label>
+      <input type="number" id="num1" placeholder="e.g. 45" />
+    </div>
+    <div class="field">
+      <label for="num2">Second Number (Integer)</label>
+      <input type="number" id="num2" placeholder="e.g. 12" />
+    </div>
+
+    <div class="btn-grid">
+      <button class="btn btn-add" onclick="calculate('add')">Add</button>
+      <button class="btn btn-sub" onclick="calculate('subtract')">Subtract</button>
+      <button class="btn btn-mul" onclick="calculate('multiply')">Multiply</button>
+      <button class="btn btn-div" onclick="calculate('divide')">Division</button>
+    </div>
+
+    <div class="result-box" id="resultBox">
+      <div class="result-label">Calculated Result</div>
+      <div class="result-value" id="resultValue">—</div>
+    </div>
+  </div>
+
+  <script>
+    function add(a, b)      { return a + b; }
+    function subtract(a, b) { return a - b; }
+    function multiply(a, b) { return a * b; }
+    function divide(a, b)   { return a / b; }
+
+    const symbols = { add: '+', subtract: '−', multiply: '×', divide: '÷' };
+
+    function calculate(op) {
+      const v1 = document.getElementById('num1').value.trim();
+      const v2 = document.getElementById('num2').value.trim();
+      const resultEl  = document.getElementById('resultValue');
+      const boxEl     = document.getElementById('resultBox');
+
+      if (v1 === '' || v2 === '') {
+        resultEl.textContent = 'Please enter both numbers';
+        resultEl.className   = 'result-value error';
+        triggerPop(boxEl);
+        return;
+      }
+
+      const a = op === 'divide' ? parseFloat(v1) : parseInt(v1, 10);
+      const b = op === 'divide' ? parseFloat(v2) : parseInt(v2, 10);
+
+      if (isNaN(a) || isNaN(b)) {
+        resultEl.textContent = 'Invalid numbers entered';
+        resultEl.className   = 'result-value error';
+        triggerPop(boxEl);
+        return;
+      }
+
+      if (op === 'divide' && b === 0) {
+        resultEl.textContent = 'Cannot divide by zero';
+        resultEl.className   = 'result-value error';
+        triggerPop(boxEl);
+        return;
+      }
+
+      const ops   = { add, subtract, multiply, divide };
+      const result = ops[op](a, b);
+      const sym    = symbols[op];
+      const display = Number.isInteger(result) ? result : parseFloat(result.toFixed(10));
+
+      resultEl.textContent = `${a} ${sym} ${b} = ${display}`;
+      resultEl.className   = 'result-value';
+      triggerPop(boxEl);
+    }
+
+    function triggerPop(el) {
+      el.classList.remove('pop');
+      void el.offsetWidth;
+      el.classList.add('pop');
+    }
+  </script>
+</body>
+</html>
